@@ -6,6 +6,7 @@ Usage:
   python evaluate.py --budget 160 --n_questions 200 --data_file data/hotpot_qa_validation.jsonl
 """
 import argparse
+import os
 import random
 from pathlib import Path
 
@@ -24,6 +25,25 @@ METHODS = {
     "focused": pack_focused,
     "answer_survival": pack_answer_survival,
 }
+
+
+def _hf_token() -> str | None:
+    token = os.getenv("HF_TOKEN") or os.getenv("HUGGINGFACE_HUB_TOKEN")
+    if token:
+        return token
+
+    env_path = Path(".env")
+    if not env_path.exists():
+        return None
+
+    for line in env_path.read_text(encoding="utf-8").splitlines():
+        if "=" not in line or line.strip().startswith("#"):
+            continue
+        key, value = line.split("=", 1)
+        key = key.strip()
+        if key in {"HF_TOKEN", "HUGGINGFACE_HUB_TOKEN"}:
+            return value.strip().strip("'\"")
+    return None
 
 
 def _load_dataset(split: str, data_file: str | None):
@@ -52,7 +72,7 @@ def _load_dataset(split: str, data_file: str | None):
         )
 
     try:
-        return load_dataset("hotpot_qa", "distractor", split=split)
+        return load_dataset("hotpot_qa", "distractor", split=split, token=_hf_token())
     except Exception as exc:
         cache_root = Path.home() / ".cache" / "huggingface" / "hub" / "datasets--hotpot_qa"
         raise RuntimeError(

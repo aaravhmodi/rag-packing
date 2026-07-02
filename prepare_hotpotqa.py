@@ -17,9 +17,27 @@ from pathlib import Path
 from datasets import load_dataset
 
 
-def main(split: str, output: str, fmt: str):
+def _hf_token() -> str | None:
     token = os.getenv("HF_TOKEN") or os.getenv("HUGGINGFACE_HUB_TOKEN")
-    ds = load_dataset("hotpot_qa", "distractor", split=split, token=token)
+    if token:
+        return token
+
+    env_path = Path(".env")
+    if not env_path.exists():
+        return None
+
+    for line in env_path.read_text(encoding="utf-8").splitlines():
+        if "=" not in line or line.strip().startswith("#"):
+            continue
+        key, value = line.split("=", 1)
+        key = key.strip()
+        if key in {"HF_TOKEN", "HUGGINGFACE_HUB_TOKEN"}:
+            return value.strip().strip("'\"")
+    return None
+
+
+def main(split: str, output: str, fmt: str):
+    ds = load_dataset("hotpot_qa", "distractor", split=split, token=_hf_token())
     out = Path(output)
     out.parent.mkdir(parents=True, exist_ok=True)
 
