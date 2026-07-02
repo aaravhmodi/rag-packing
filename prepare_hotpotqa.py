@@ -11,13 +11,15 @@ Once exported, evaluate.py can run offline with --data_file.
 from __future__ import annotations
 
 import argparse
+import os
 from pathlib import Path
 
 from datasets import load_dataset
 
 
 def main(split: str, output: str, fmt: str):
-    ds = load_dataset("hotpot_qa", "distractor", split=split)
+    token = os.getenv("HF_TOKEN") or os.getenv("HUGGINGFACE_HUB_TOKEN")
+    ds = load_dataset("hotpot_qa", "distractor", split=split, token=token)
     out = Path(output)
     out.parent.mkdir(parents=True, exist_ok=True)
 
