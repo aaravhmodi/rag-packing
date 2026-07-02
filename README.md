@@ -37,6 +37,18 @@ Each record should contain:
 - `answer`
 - `context`, with HotpotQA-style supporting sentences at `context["sentences"]`
 
+To generate that file when you do have network access:
+
+```bash
+python prepare_hotpotqa.py --split validation --output data/hotpot_qa_validation.jsonl
+```
+
+Or save the full dataset directory for offline reuse:
+
+```bash
+python prepare_hotpotqa.py --split validation --output data/hotpot_qa_validation --format disk
+```
+
 ## Methods
 
 | Method | Description |
