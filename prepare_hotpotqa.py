@@ -16,6 +16,8 @@ from pathlib import Path
 
 from datasets import load_dataset
 
+_DATASET_ID = "hotpotqa/hotpot_qa"
+
 
 def _hf_token() -> str | None:
     token = os.getenv("HF_TOKEN") or os.getenv("HUGGINGFACE_HUB_TOKEN")
@@ -37,7 +39,7 @@ def _hf_token() -> str | None:
 
 
 def main(split: str, output: str, fmt: str):
-    ds = load_dataset("hotpot_qa", "distractor", split=split, token=_hf_token())
+    ds = load_dataset(_DATASET_ID, "distractor", split=split, token=_hf_token())
     out = Path(output)
     out.parent.mkdir(parents=True, exist_ok=True)
 

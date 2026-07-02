@@ -19,6 +19,8 @@ from pack import pack_topk, pack_mmr, pack_focused, pack_answer_survival
 from reader import generate_answer
 from metrics import token_f1, exact_match, answer_in_context
 
+_DATASET_ID = "hotpotqa/hotpot_qa"
+
 METHODS = {
     "topk": pack_topk,
     "mmr": pack_mmr,
@@ -72,7 +74,7 @@ def _load_dataset(split: str, data_file: str | None):
         )
 
     try:
-        return load_dataset("hotpot_qa", "distractor", split=split, token=_hf_token())
+        return load_dataset(_DATASET_ID, "distractor", split=split, token=_hf_token())
     except Exception as exc:
         cache_root = Path.home() / ".cache" / "huggingface" / "hub" / "datasets--hotpot_qa"
         raise RuntimeError(
