@@ -2,10 +2,8 @@
 Retrieval stage: given a question, fetch top-N candidate chunks
 from the HotpotQA supporting facts.
 """
-import json
-from sentence_transformers import SentenceTransformer, util
-
-model = SentenceTransformer("all-MiniLM-L6-v2")
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 
 
 def chunk_supporting_facts(example, max_tokens=60):
@@ -18,11 +16,13 @@ def chunk_supporting_facts(example, max_tokens=60):
 
 
 def retrieve(question: str, chunks: list[dict], top_n: int = 20) -> list[dict]:
-    """Return top-N chunks by embedding similarity."""
+    """Return top-N chunks by TF-IDF cosine similarity."""
+    if not chunks:
+        return []
     texts = [c["text"] for c in chunks]
-    q_emb = model.encode(question, convert_to_tensor=True)
-    c_embs = model.encode(texts, convert_to_tensor=True)
-    scores = util.cos_sim(q_emb, c_embs)[0].cpu().tolist()
+    vectorizer = TfidfVectorizer(stop_words="english", ngram_range=(1, 2))
+    matrix = vectorizer.fit_transform([question, *texts])
+    scores = cosine_similarity(matrix[0:1], matrix[1:]).ravel().tolist()
     for c, s in zip(chunks, scores):
         c["score"] = s
     return sorted(chunks, key=lambda x: x["score"], reverse=True)[:top_n]

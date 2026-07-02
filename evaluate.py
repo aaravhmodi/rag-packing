@@ -7,6 +7,7 @@ Usage:
 import argparse
 import json
 import random
+import os
 from pathlib import Path
 
 import pandas as pd
@@ -28,7 +29,15 @@ METHODS = {
 
 def run(budget: int, n_questions: int, split: str, seed: int = 42):
     random.seed(seed)
-    ds = load_dataset("hotpot_qa", "distractor", split=split, trust_remote_code=True)
+    try:
+        ds = load_dataset("hotpot_qa", "distractor", split=split)
+    except Exception as exc:
+        cache_root = os.path.join(os.path.expanduser("~"), ".cache", "huggingface", "hub", "datasets--hotpot_qa")
+        raise RuntimeError(
+            "Failed to load HotpotQA. This environment does not have a usable local dataset "
+            f"cache at {cache_root}, and Hugging Face remote-code loading is no longer supported "
+            "by the installed datasets version."
+        ) from exc
     indices = random.sample(range(len(ds)), min(n_questions, len(ds)))
 
     records = []
