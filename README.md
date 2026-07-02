@@ -15,9 +15,27 @@ python -m spacy download en_core_web_sm
 # Evaluate all 4 methods on 200 HotpotQA validation questions, 160-token budget
 python evaluate.py --budget 160 --n_questions 200
 
+# Offline: evaluate from a local export instead of downloading from Hugging Face
+python evaluate.py --budget 160 --n_questions 200 --data_file data/hotpot_qa_validation.jsonl
+
 # Generate all 5 plots
 python plot.py --budget 160
 ```
+
+## Offline Data
+
+If this environment cannot reach Hugging Face, export the dataset elsewhere and copy it into the repo as one of:
+
+- `data/hotpot_qa_validation.jsonl`
+- `data/hotpot_qa_validation.json`
+- `data/hotpot_qa_validation.csv`
+- a directory saved with `datasets.save_to_disk()`
+
+Each record should contain:
+
+- `question`
+- `answer`
+- `context`, with HotpotQA-style supporting sentences at `context["sentences"]`
 
 ## Methods
 

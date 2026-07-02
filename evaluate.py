@@ -3,41 +3,67 @@ Main evaluation loop.
 
 Usage:
   python evaluate.py --budget 160 --n_questions 200 --split validation
+  python evaluate.py --budget 160 --n_questions 200 --data_file data/hotpot_qa_validation.jsonl
 """
 import argparse
-import json
 import random
-import os
 from pathlib import Path
 
 import pandas as pd
-from datasets import load_dataset
+from datasets import Dataset, DatasetDict, load_dataset, load_from_disk
 from tqdm import tqdm
 
 from retrieve import chunk_supporting_facts, retrieve
 from pack import pack_topk, pack_mmr, pack_focused, pack_answer_survival
 from reader import generate_answer
-from metrics import token_f1, exact_match, answer_in_context, avg_token_cost
+from metrics import token_f1, exact_match, answer_in_context
 
 METHODS = {
-    "topk":            pack_topk,
-    "mmr":             pack_mmr,
-    "focused":         pack_focused,
+    "topk": pack_topk,
+    "mmr": pack_mmr,
+    "focused": pack_focused,
     "answer_survival": pack_answer_survival,
 }
 
 
-def run(budget: int, n_questions: int, split: str, seed: int = 42):
-    random.seed(seed)
+def _load_dataset(split: str, data_file: str | None):
+    if data_file:
+        path = Path(data_file)
+        if not path.exists():
+            raise FileNotFoundError(f"Local dataset file not found: {path}")
+
+        suffix = path.suffix.lower()
+        if path.is_dir():
+            loaded = load_from_disk(str(path))
+            if isinstance(loaded, DatasetDict):
+                if split not in loaded:
+                    raise KeyError(f"Split '{split}' not found in saved dataset directory: {path}")
+                return loaded[split]
+            return loaded
+        if suffix in {".json", ".jsonl"}:
+            return Dataset.from_json(str(path))
+        if suffix == ".csv":
+            return Dataset.from_csv(str(path))
+        if suffix == ".parquet":
+            return Dataset.from_parquet(str(path))
+        raise ValueError(
+            "Unsupported local dataset format. Use a saved dataset directory or one of: "
+            ".json, .jsonl, .csv, .parquet."
+        )
+
     try:
-        ds = load_dataset("hotpot_qa", "distractor", split=split)
+        return load_dataset("hotpot_qa", "distractor", split=split)
     except Exception as exc:
-        cache_root = os.path.join(os.path.expanduser("~"), ".cache", "huggingface", "hub", "datasets--hotpot_qa")
+        cache_root = Path.home() / ".cache" / "huggingface" / "hub" / "datasets--hotpot_qa"
         raise RuntimeError(
-            "Failed to load HotpotQA. This environment does not have a usable local dataset "
-            f"cache at {cache_root}, and Hugging Face remote-code loading is no longer supported "
-            "by the installed datasets version."
+            "Failed to load HotpotQA. Provide a local dataset with --data_file or restore "
+            f"the Hugging Face cache at {cache_root}."
         ) from exc
+
+
+def run(budget: int, n_questions: int, split: str, data_file: str | None = None, seed: int = 42):
+    random.seed(seed)
+    ds = _load_dataset(split, data_file)
     indices = random.sample(range(len(ds)), min(n_questions, len(ds)))
 
     records = []
@@ -52,16 +78,17 @@ def run(budget: int, n_questions: int, split: str, seed: int = 42):
         for name, packer in METHODS.items():
             packed = packer(question, candidates, budget)
             pred = generate_answer(question, packed)
-            row[f"{name}_aic"]   = int(answer_in_context(gold, packed))
-            row[f"{name}_f1"]    = token_f1(pred, gold)
-            row[f"{name}_em"]    = exact_match(pred, gold)
+            row[f"{name}_aic"] = int(answer_in_context(gold, packed))
+            row[f"{name}_f1"] = token_f1(pred, gold)
+            row[f"{name}_em"] = exact_match(pred, gold)
             row[f"{name}_tokens"] = sum(len(c["text"].split()) for c in packed)
         records.append(row)
 
     df = pd.DataFrame(records)
     out = Path("results") / f"results_budget{budget}.csv"
+    out.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(out, index=False)
-    print(f"\nSaved → {out}")
+    print(f"\nSaved -> {out}")
     _print_summary(df, budget)
     return df
 
@@ -72,17 +99,23 @@ def _print_summary(df, budget):
     print(header)
     print("-" * len(header))
     for name in METHODS:
-        aic    = df[f"{name}_aic"].mean()
-        f1     = df[f"{name}_f1"].mean()
-        em     = df[f"{name}_em"].mean()
+        aic = df[f"{name}_aic"].mean()
+        f1 = df[f"{name}_f1"].mean()
+        em = df[f"{name}_em"].mean()
         tokens = df[f"{name}_tokens"].mean()
         print(f"{name:<18} {aic:>6.3f} {f1:>6.3f} {em:>6.3f} {tokens:>8.1f}")
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--budget",      type=int, default=160)
+    parser.add_argument("--budget", type=int, default=160)
     parser.add_argument("--n_questions", type=int, default=200)
-    parser.add_argument("--split",       type=str, default="validation")
+    parser.add_argument("--split", type=str, default="validation")
+    parser.add_argument(
+        "--data_file",
+        type=str,
+        default=None,
+        help="Optional local HotpotQA export (.json, .jsonl, .csv, .parquet, or a saved dataset directory).",
+    )
     args = parser.parse_args()
-    run(args.budget, args.n_questions, args.split)
+    run(args.budget, args.n_questions, args.split, args.data_file)
