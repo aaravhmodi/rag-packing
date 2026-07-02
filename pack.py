@@ -9,12 +9,11 @@ Each packer takes:
 Returns:
   packed : list[dict]      (subset of candidates, in order)
 """
-import re
 import spacy
-from sentence_transformers import SentenceTransformer, util
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 
 _nlp = spacy.load("en_core_web_sm")
-_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 
 def _tok_len(text: str) -> int:
@@ -41,10 +40,12 @@ def pack_topk(question, candidates, budget):
 # ── Baseline 2: MMR ────────────────────────────────────────────────────────
 
 def pack_mmr(question, candidates, budget, lam=0.5):
+    if not candidates:
+        return []
     texts = [c["text"] for c in candidates]
-    q_emb = _model.encode(question, convert_to_tensor=True)
-    embs = _model.encode(texts, convert_to_tensor=True)
-    rel = util.cos_sim(q_emb, embs)[0].tolist()
+    vectorizer = TfidfVectorizer(stop_words="english", ngram_range=(1, 2))
+    matrix = vectorizer.fit_transform([question, *texts])
+    rel = cosine_similarity(matrix[0:1], matrix[1:]).ravel().tolist()
 
     selected_idx, packed, used = [], [], 0
     remaining = list(range(len(candidates)))
@@ -58,10 +59,7 @@ def pack_mmr(question, candidates, budget, lam=0.5):
             if not selected_idx:
                 mmr = rel[i]
             else:
-                sim_to_sel = max(
-                    util.cos_sim(embs[i], embs[j]).item()
-                    for j in selected_idx
-                )
+                sim_to_sel = max(cosine_similarity(matrix[i + 1], matrix[j + 1]).item() for j in selected_idx)
                 mmr = lam * rel[i] - (1 - lam) * sim_to_sel
             if mmr > best_score:
                 best_i, best_score = i, mmr
