@@ -1,19 +1,9 @@
 """
 Retrieval stage: given a question, fetch top-N candidate chunks
-from the HotpotQA supporting facts.
+from the dataset's chunked context (see datasets_adapter.py).
 """
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-
-
-def chunk_supporting_facts(example, max_tokens=60):
-    """Split each supporting sentence into a chunk dict."""
-    chunks = []
-    context = example["context"]
-    for title, sentences in zip(context["title"], context["sentences"]):
-        for i, sent in enumerate(sentences):
-            chunks.append({"title": title, "sent_idx": i, "text": sent.strip()})
-    return chunks
 
 
 def retrieve(question: str, chunks: list[dict], top_n: int = 20) -> list[dict]:
