@@ -315,6 +315,22 @@ def sweep_plots(dataset):
     plt.close()
     print(f"  saved fig12_f1_gain_vs_budget_{dataset}.png")
 
+    fig, axes = plt.subplots(1, 2, figsize=(14, 5))
+    for col, ax, ylabel in zip(["f1", "tokens"], axes, ["F1", "Tokens"]):
+        for p, linestyle in zip([50, 95, 99], ["-", "--", ":"]):
+            sub = summary[summary["method"] == "answer_survival"].sort_values("budget")
+            ax.plot(sub["budget"], sub[f"{col}_p{p}"], marker="o", linestyle=linestyle,
+                    color=PALETTE[3], label=f"p{p}")
+        ax.set_xlabel("Token Budget")
+        ax.set_ylabel(ylabel)
+        ax.set_title(f"AnswerSurvival {ylabel} percentiles vs budget", fontsize=12)
+        ax.legend()
+    fig.suptitle(f"Tail Behavior vs Token Budget ({dataset})", fontweight="bold")
+    fig.tight_layout()
+    fig.savefig(out / f"fig16_percentiles_vs_budget_{dataset}.png", dpi=150)
+    plt.close()
+    print(f"  saved fig16_percentiles_vs_budget_{dataset}.png")
+
     print(f"\nAll multi-budget plots for {dataset} written to {out}/")
 
 
