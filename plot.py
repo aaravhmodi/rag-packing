@@ -155,7 +155,7 @@ def plot_percentiles(df, out_dir, tag):
                for p, h in zip(percentiles, hatches)]
     axes[0].legend(handles=handles, fontsize=9, loc="upper left")
     fig.suptitle(f"Percentile Breakdown ({tag})", fontweight="bold")
-    fig.tight_layout()
+    fig.tight_layout(rect=(0, 0, 1, 0.94))
     fig.savefig(out_dir / f"fig15_percentiles_{tag}.png", dpi=150)
     plt.close()
     print(f"  saved fig15_percentiles_{tag}.png")
