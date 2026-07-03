@@ -13,14 +13,41 @@ python -m spacy download en_core_web_sm
 
 ```bash
 # Evaluate all 4 methods on 200 HotpotQA validation questions, 160-token budget
-python evaluate.py --budget 160 --n_questions 200
+python evaluate.py --dataset hotpotqa --budget 160 --n_questions 200
+
+# Other datasets: squad, triviaqa, 2wikimultihopqa
+python evaluate.py --dataset squad --budget 160 --n_questions 200
 
 # Offline: evaluate from a local export instead of downloading from Hugging Face
-python evaluate.py --budget 160 --n_questions 200 --data_file data/hotpot_qa_validation.jsonl
+python evaluate.py --dataset hotpotqa --budget 160 --n_questions 200 --data_file data/hotpot_qa_validation.jsonl
 
-# Generate all 5 plots
-python plot.py --budget 160
+# Generate the single-run figures (per method: AIC/F1/EM/tokens with CI, failure modes,
+# AIC-vs-F1 scatter, F1 violin, AIC gain over Top-K, per-question-type breakdown)
+python plot.py --dataset hotpotqa --budget 160
+
+# Full sweep: all 4 datasets x budgets [80,160,256,384,512], plus multi-budget and
+# cross-dataset comparison figures
+python sweep.py --n_questions 200
+
+# Statistical significance of AnswerSurvival vs each baseline (paired bootstrap CI)
+python significance.py --dataset hotpotqa --budget 160
+
+# Qualitative examples (markdown table for paper appendix)
+python qualitative.py --dataset hotpotqa --budget 160 --n_examples 5 --mode wins
 ```
+
+### Datasets
+
+| `--dataset` | Source | Notes |
+|---|---|---|
+| `hotpotqa` | `hotpotqa/hotpot_qa` (distractor) | Multi-hop, has `qtype` (bridge/comparison) |
+| `squad` | `rajpurkar/squad_v2` | Single-hop, single-passage; unanswerable questions are filtered out |
+| `triviaqa` | `mandarjoshi/trivia_qa` (rc.wikipedia) | Open-domain, longer/noisier contexts |
+| `2wikimultihopqa` | `voidful/2WikiMultihopQA` | Multi-hop, has `qtype` |
+
+All loaders go through `datasets_adapter.py`, which normalizes every dataset into a common
+`{question, answer, qtype, chunks}` shape before retrieval/packing. `--data_file` accepts either
+the dataset's native HF schema or this unified schema directly, for fully offline use.
 
 ## Offline Data
 
