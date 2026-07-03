@@ -315,6 +315,13 @@ def sweep_plots(dataset):
     plt.close()
     print(f"  saved fig12_f1_gain_vs_budget_{dataset}.png")
 
+    plot_percentiles_vs_budget(summary, out, dataset)
+
+    print(f"\nAll multi-budget plots for {dataset} written to {out}/")
+
+
+def plot_percentiles_vs_budget(summary, out_dir, dataset):
+    """AnswerSurvival's p50/p95/p99 F1 and token cost as budget varies. Standalone-callable."""
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
     for col, ax, ylabel in zip(["f1", "tokens"], axes, ["F1", "Tokens"]):
         for p, linestyle in zip([50, 95, 99], ["-", "--", ":"]):
@@ -327,11 +334,9 @@ def sweep_plots(dataset):
         ax.legend()
     fig.suptitle(f"Tail Behavior vs Token Budget ({dataset})", fontweight="bold")
     fig.tight_layout()
-    fig.savefig(out / f"fig16_percentiles_vs_budget_{dataset}.png", dpi=150)
+    fig.savefig(out_dir / f"fig16_percentiles_vs_budget_{dataset}.png", dpi=150)
     plt.close()
     print(f"  saved fig16_percentiles_vs_budget_{dataset}.png")
-
-    print(f"\nAll multi-budget plots for {dataset} written to {out}/")
 
 
 def cross_dataset_plot(budget):
