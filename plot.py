@@ -101,7 +101,8 @@ def plot_f1_violin(df, out_dir, tag):
     long_df["method"] = long_df["method"].map(label_map)
 
     fig, ax = plt.subplots(figsize=(8, 5))
-    sns.violinplot(data=long_df, x="method", y="f1", palette=PALETTE, ax=ax, cut=0)
+    sns.violinplot(data=long_df, x="method", y="f1", hue="method", palette=PALETTE,
+                   legend=False, ax=ax, cut=0)
     ax.set_title(f"F1 Score Distribution ({tag})", fontweight="bold")
     ax.set_xlabel("")
     ax.set_ylabel("Token F1")
