@@ -131,6 +131,36 @@ def plot_aic_gain(df, out_dir, tag):
     print(f"  saved fig8_aic_gain_{tag}.png")
 
 
+def plot_percentiles(df, out_dir, tag):
+    """P50/P95/P99 bars per method for token cost and F1 -- shows tail behavior, not just the mean."""
+    percentiles = [50, 95, 99]
+    hatches = ["", "//", "xx"]
+
+    fig, axes = plt.subplots(1, 2, figsize=(13, 5))
+    for col, ax, ylabel in zip(["tokens", "f1"], axes, ["Tokens", "F1"]):
+        x = np.arange(len(METHODS))
+        width = 0.8 / len(percentiles)
+        for i, (p, hatch) in enumerate(zip(percentiles, hatches)):
+            vals = [np.percentile(df[f"{m}_{col}"], p) for m in METHODS]
+            ax.bar(x + i * width, vals, width=width, label=f"p{p}",
+                   color=PALETTE[: len(METHODS)], edgecolor="white", hatch=hatch, alpha=0.9)
+        ax.set_xticks(x + width * (len(percentiles) - 1) / 2)
+        ax.set_xticklabels(LABELS)
+        ax.set_ylabel(ylabel)
+        ax.set_title(f"{ylabel} percentiles (p50/p95/p99)", fontsize=12)
+
+    # legend keyed on hatch pattern (percentile), not color (method)
+    from matplotlib.patches import Patch
+    handles = [Patch(facecolor="white", edgecolor="black", hatch=h, label=f"p{p}")
+               for p, h in zip(percentiles, hatches)]
+    axes[0].legend(handles=handles, fontsize=9, loc="upper left")
+    fig.suptitle(f"Percentile Breakdown ({tag})", fontweight="bold")
+    fig.tight_layout()
+    fig.savefig(out_dir / f"fig15_percentiles_{tag}.png", dpi=150)
+    plt.close()
+    print(f"  saved fig15_percentiles_{tag}.png")
+
+
 def plot_by_qtype(df, out_dir, tag):
     """Break down AIC/F1 by question type (e.g. bridge vs comparison), if present."""
     if "qtype" not in df.columns or df["qtype"].dropna().empty:
@@ -187,6 +217,7 @@ def single_budget(dataset, budget):
     plot_aic_vs_f1_scatter(df, out, tag)
     plot_f1_violin(df, out, tag)
     plot_aic_gain(df, out, tag)
+    plot_percentiles(df, out, tag)
     plot_by_qtype(df, out, tag)
     print(f"\nAll single-run plots written to {out}/")
 
@@ -205,6 +236,12 @@ def _load_all_budgets(dataset):
                 "aic_ci": _ci95(df[f"{m}_aic"]),
                 "f1_mean": df[f"{m}_f1"].mean(),
                 "f1_ci": _ci95(df[f"{m}_f1"]),
+                "f1_p50": np.percentile(df[f"{m}_f1"], 50),
+                "f1_p95": np.percentile(df[f"{m}_f1"], 95),
+                "f1_p99": np.percentile(df[f"{m}_f1"], 99),
+                "tokens_p50": np.percentile(df[f"{m}_tokens"], 50),
+                "tokens_p95": np.percentile(df[f"{m}_tokens"], 95),
+                "tokens_p99": np.percentile(df[f"{m}_tokens"], 99),
             })
     if not rows:
         raise FileNotFoundError(f"No results/results_{dataset}_budget*.csv files found. Run sweep.py first.")
