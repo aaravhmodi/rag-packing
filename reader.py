@@ -1,11 +1,8 @@
 """
 Reader: given packed context + question, produce an answer string.
 
-This project originally used a Hugging Face QA pipeline, but the installed
-transformers build in this environment does not expose the
-``question-answering`` task. To keep the evaluation runnable end-to-end, we use
-an offline spaCy-based extractor that scores sentences and short phrases from
-the packed context.
+This reader uses an offline spaCy-based extractor that scores sentences and
+short phrases from the packed context.
 """
 from __future__ import annotations
 

@@ -9,7 +9,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 def chunk_supporting_facts(example, max_tokens=60):
     """Split each supporting sentence into a chunk dict."""
     chunks = []
-    for title, sentences in example["context"]["sentences"]:
+    context = example["context"]
+    for title, sentences in zip(context["title"], context["sentences"]):
         for i, sent in enumerate(sentences):
             chunks.append({"title": title, "sent_idx": i, "text": sent.strip()})
     return chunks

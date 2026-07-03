@@ -1,5 +1,5 @@
 """
-Generate the 5 paper figures from results CSVs.
+Generate plots from results CSVs.
 
 Usage:
   python plot.py --budget 160

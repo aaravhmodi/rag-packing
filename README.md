@@ -1,6 +1,6 @@
 # AnswerSurvivalRAG
 
-Reproduction and extension of budget-constrained multi-hop RAG packing research.
+Budget-constrained multi-hop RAG packing experiments with offline evaluation support.
 
 ## Setup
 
@@ -56,7 +56,7 @@ python prepare_hotpotqa.py --split validation --output data/hotpot_qa_validation
 | `topk` | Naive: fill budget with highest-similarity chunks |
 | `mmr` | Maximal Marginal Relevance balances relevance + diversity |
 | `focused` | Heuristic: query similarity + entity overlap |
-| `answer_survival` | **Proposed**: entity bridge + brevity-aware scoring |
+| `answer_survival` | Entity bridge + brevity-aware scoring |
 
 ## Scoring formula (AnswerSurvival)
 
