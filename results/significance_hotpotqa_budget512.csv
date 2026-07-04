@@ -1,0 +1,10 @@
+metric,baseline,mean_diff,ci_low,ci_high,p_value,significant_95
+aic,topk,-0.005,-0.015,0.0,0.7324,False
+aic,mmr,0.005,-0.01,0.025,0.7972,False
+aic,focused,-0.005,-0.015,0.0,0.7324,False
+f1,topk,0.00039525691699604753,-0.002727272727272727,0.003913043478260869,0.948,False
+f1,mmr,0.00047249268935377104,-0.002650036954915003,0.003914974372569784,0.7944,False
+f1,focused,0.0,0.0,0.0,1.0,False
+em,topk,0.0,0.0,0.0,1.0,False
+em,mmr,0.0,0.0,0.0,1.0,False
+em,focused,0.0,0.0,0.0,1.0,False

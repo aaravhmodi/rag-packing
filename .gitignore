@@ -17,8 +17,7 @@ env/
 .coverage.*
 
 # Project outputs
-results/
-plots/
+
 
 # Local data exports or scratch data
 data/

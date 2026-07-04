@@ -1,0 +1,201 @@
+question,gold,qtype,topk_aic,topk_f1,topk_em,topk_tokens,mmr_aic,mmr_f1,mmr_em,mmr_tokens,focused_aic,focused_f1,focused_em,focused_tokens,answer_survival_aic,answer_survival_f1,answer_survival_em,answer_survival_tokens
+Where does the founder of Les Films Du Losange work at?,Cahiers du cinéma,compositional,0,0.0,0.0,248,1,0.0,0.0,255,0,0.0,0.0,248,0,0.0,0.0,246
+Are director of film Susanna Whipped Cream and director of film Le Salamandre both from the same country?,yes,bridge_comparison,0,0.0,0.0,224,0,0.0,0.0,224,0,0.0,0.0,224,0,0.0,0.0,224
+Who is Wisigard's father-in-law?,Theuderic I,inference,1,0.0,0.0,255,1,0.0,0.0,256,1,0.0,0.0,255,1,0.0,0.0,253
+Which country the director of film Hotel By The Hour is from?,Austria,compositional,0,0.0,0.0,253,1,0.0,0.0,246,0,0.0,0.0,253,1,0.0,0.0,244
+"Who lived longer, Friedrich Paschen or Ernst Bessey?",Friedrich Paschen,comparison,1,0.0,0.0,255,1,0.07142857142857144,0.0,254,1,0.0,0.0,255,1,0.0,0.0,239
+"Which film has the director born later, The Fighting Demon or Blood Of The Losers?",Blood Of The Losers,bridge_comparison,1,0.0,0.0,241,1,0.0,0.0,241,1,0.0,0.0,241,1,0.0,0.0,241
+Who is Ieuan Ab Owain Glyndŵr's paternal grandfather?,Gruffudd Fychan II,inference,0,0.0,0.0,254,0,0.0,0.0,253,0,0.0,0.0,254,0,0.0,0.0,254
+"Which film has the director died later, The Life And Loves Of Tschaikovsky or Dokuz Dağın Efesi?",Dokuz Dağın Efesi,bridge_comparison,1,0.0,0.0,256,1,0.0,0.0,252,1,0.0,0.0,256,1,0.0,0.0,254
+What is the date of birth of Frederick Of Liege's father?,1027,compositional,0,0.0,0.0,256,0,0.0,0.0,246,0,0.0,0.0,256,0,0.0,0.0,241
+"Where did the director of film Nalini By Day, Nancy By Night graduate from?",Mount Holyoke College,compositional,0,0.0,0.0,249,1,0.0,0.0,254,0,0.0,0.0,249,0,0.0,0.0,248
+"Which film has the director born later, Brutti Di Notte or Bir Türk'E Gönül Verdim?",Bir Türk'E Gönül Verdim,bridge_comparison,1,0.0,0.0,220,1,0.0,0.0,220,1,0.0,0.0,220,1,0.0,0.0,220
+Who is Rostislav I Of Kiev's paternal grandfather?,Vladimir II Monomakh,inference,0,0.044444444444444446,0.0,252,0,0.0,0.0,251,0,0.044444444444444446,0.0,252,0,0.0,0.0,255
+"Which film has the director born later, Life Hits or It'S In The Air?",Life Hits,bridge_comparison,1,0.0,0.0,181,1,0.0,0.0,181,1,0.0,0.0,181,1,0.0,0.0,181
+"Which film whose director is younger, A Night'S Adventure or Insaciable?",Insaciable,bridge_comparison,1,0.0,0.0,254,1,0.0,0.0,256,1,0.0,0.0,254,1,0.0,0.0,248
+What is the place of birth of the composer of film Men With Brooms?,Calgary,compositional,0,0.0,0.0,256,0,0.0,0.0,250,0,0.0,0.0,256,0,0.0,0.0,249
+"Which film has the director born later, Battle Of Memories or The Wedding Of Lilli Marlene?",Battle Of Memories,bridge_comparison,1,0.28571428571428575,0.0,254,1,0.28571428571428575,0.0,250,1,0.28571428571428575,0.0,254,1,0.28571428571428575,0.0,255
+Where was the director of film Aylwin (Film) born?,"Weston-super-Mare, Somerset",compositional,1,0.0,0.0,254,1,0.0,0.0,253,1,0.0,0.0,254,1,0.0,0.0,253
+"Which film has the director who was born first, Hanuman Patal Vijay or Young And Dangerous: The Prequel?",Hanuman Patal Vijay,bridge_comparison,1,0.125,0.0,243,1,0.0,0.0,248,1,0.125,0.0,243,1,0.125,0.0,243
+Were Gotthilf Heinrich Ernst Muhlenberg and Todd Williams of the same nationality?,yes,comparison,0,0.0,0.0,249,0,0.0,0.0,254,0,0.0,0.0,249,0,0.0,0.0,254
+What is the date of death of Peter Dale Scott's mother?,28 November 1993,compositional,1,0.0,0.0,252,1,0.0,0.0,255,1,0.0,0.0,252,1,0.0,0.0,252
+Where did the founder of Ford Australia die?,Dearborn,compositional,0,0.0,0.0,256,1,0.0,0.0,256,0,0.0,0.0,256,0,0.0,0.0,239
+"Which film has the director who is older than the other, Rolling In Money or A Fine, Windy Day? ",Rolling In Money,bridge_comparison,1,0.25,0.0,254,1,0.25,0.0,245,1,0.25,0.0,254,1,0.25,0.0,245
+"Which film has the director born later, Best Of The Best 3: No Turning Back or Ven Mi Corazón Te Llama?",Best Of The Best 3: No Turning Back,bridge_comparison,1,0.0,0.0,256,1,0.0,0.0,252,1,0.0,0.0,256,1,0.0,0.0,254
+"Which film has the director who died later, The Death Kiss or Her Luck In London?",Her Luck In London,bridge_comparison,1,0.2857142857142857,0.0,250,1,0.2857142857142857,0.0,242,1,0.2857142857142857,0.0,250,1,0.2857142857142857,0.0,255
+"When did Joanna Of Aragon, Countess Of Foix's mother die?",23 October 1378,compositional,0,0.0,0.0,256,0,0.0,0.0,254,0,0.0,0.0,256,0,0.0,0.0,254
+"Which film whose director is younger, Hell To Pay (2014 Film) or Darwin'S Nightmare?",Darwin'S Nightmare,bridge_comparison,1,0.0,0.0,252,1,0.0,0.0,248,1,0.0,0.0,252,1,0.0,0.0,247
+"Which film has the director who was born later, Así En El Cielo Como En La Tierra or Buck And The Preacher?",Así En El Cielo Como En La Tierra,bridge_comparison,1,0.5161290322580645,0.0,256,1,0.4324324324324324,0.0,249,1,0.4324324324324324,0.0,256,1,0.4324324324324324,0.0,238
+"What is the date of death of Philibert I, Duke Of Savoy's mother?",23 August 1478,compositional,1,0.0,0.0,247,0,0.0,0.0,254,1,0.0,0.0,256,1,0.0,0.0,256
+Which country Count Of St. Germain's father is from?,Hungarian,compositional,0,0.0,0.0,242,0,0.0,0.0,254,0,0.0,0.0,242,0,0.0,0.0,240
+Where was the director of film He'S A Cockeyed Wonder born?,London,compositional,0,0.0,0.0,255,0,0.0,0.0,256,0,0.0,0.0,255,0,0.0,0.0,250
+"Which film has the director died first, Köpekler Adası or Twisted Mistress?",Twisted Mistress,bridge_comparison,1,0.0,0.0,252,1,0.0,0.0,247,1,0.0,0.0,252,1,0.0,0.0,250
+Which award the composer of film Howrah Bridge (Film) earned?,Filmfare Award,compositional,1,0.0,0.0,251,1,0.0,0.0,253,1,0.0,0.0,251,1,0.0,0.0,246
+"Which film came out earlier, Der Wixxer or The Butterfly Room?",Der Wixxer,comparison,1,1.0,1.0,249,1,1.0,1.0,254,1,1.0,1.0,249,1,1.0,1.0,254
+"Where was the husband of Wilhelmine Of Prussia, Margravine Of Brandenburg-Bayreuth born?",Weferlingen,compositional,1,0.0,0.0,256,1,0.0,0.0,249,1,0.0,0.0,256,1,0.0,0.0,253
+Where did the director of film Things Behind The Sun study?,"UCLA School of Theater, Film and Television",compositional,1,0.0,0.0,251,0,0.05714285714285715,0.0,246,1,0.0,0.0,251,0,0.0,0.0,251
+"Are the movies About A Wife, A Dream And Another... and The Doolins Of Oklahoma, from the same country?",no,comparison,1,0.0,0.0,256,1,0.0,0.0,248,1,0.0,0.0,256,1,0.0,0.0,249
+"Which film was released first, My Friend Pinto or Vindhyarani?",Vindhyarani,comparison,1,0.0,0.0,251,1,0.0,0.0,253,1,0.0,0.0,251,1,0.0,0.0,250
+Was Ausaf Ali or Steven Perry born first?,Ausaf Ali,comparison,1,0.0,0.0,249,1,0.0,0.0,253,1,0.0,0.0,249,1,0.0,0.0,243
+What is the place of birth of Aurelio De Laurentiis's father?,Torre Annunziata,compositional,0,0.0,0.0,256,0,0.0,0.0,251,0,0.0,0.0,256,0,0.0,0.0,247
+Where was the founder of magazine Amazing Stories born?,Luxembourgish,compositional,0,0.0,0.0,252,0,0.0,0.0,254,0,0.0,0.0,252,0,0.0,0.0,242
+Where did Crow Foot's father die?,United States,compositional,1,0.19999999999999998,0.0,253,1,0.0,0.0,254,1,0.19999999999999998,0.0,253,1,0.19999999999999998,0.0,234
+Who is Amalie Adlerberg's stepfather?,"Karl Alexander, 5th Prince of Thurn and Taxis",inference,0,0.052631578947368425,0.0,255,0,0.052631578947368425,0.0,256,0,0.052631578947368425,0.0,255,0,0.052631578947368425,0.0,253
+"Which film whose director is younger, Outlaw King or Gunman'S Walk?",Outlaw King,bridge_comparison,1,0.0,0.0,251,1,0.0,0.0,254,1,0.0,0.0,251,1,0.0,0.0,255
+"Which film was released more recently, Scandal At The Girls' School or One Dangerous Night?",Scandal At The Girls' School,comparison,1,0.6666666666666666,0.0,245,1,0.6666666666666666,0.0,253,1,0.6666666666666666,0.0,245,1,0.6666666666666666,0.0,245
+Which country Ronald Dewolf's father is from?,American,compositional,1,0.0,0.0,256,1,0.0,0.0,246,1,0.0,0.0,256,1,0.0,0.0,243
+Where was the place of death of the director of film Romulus And The Sabines?,Le Plessis-Bouchard,compositional,1,0.0,0.0,252,1,0.0,0.0,250,1,0.0,0.0,252,1,0.0,0.0,238
+What is the place of birth of the director of film The Return Of Swamp Thing?,New York,compositional,0,0.0,0.0,247,1,0.0,0.0,247,0,0.0,0.0,247,0,0.0,0.0,255
+Who is the father of the director of film The Thousand Faces Of Dunjia?,Yuen Siu-tien,compositional,0,0.09523809523809525,0.0,256,1,0.09523809523809525,0.0,253,0,0.09523809523809525,0.0,256,1,0.09523809523809525,0.0,235
+"Which film has the director who is older, Aardram or Land And Freedom?",Land And Freedom,bridge_comparison,1,0.2727272727272727,0.0,250,1,0.2727272727272727,0.0,245,1,0.2727272727272727,0.0,250,1,0.2727272727272727,0.0,250
+"Which film came out first, Stella'S Oorlog or Sampathige Savaal?",Sampathige Savaal,comparison,1,0.0,0.0,251,1,0.0,0.0,255,1,0.0,0.0,251,1,0.0,0.0,250
+"Who was born later, Jean-Jacques Rousseau or Richard Cawley?",Richard Cawley,comparison,1,0.0,0.0,244,1,0.0,0.0,250,1,0.0,0.0,244,1,0.0,0.0,244
+Where did the director of film Journal Of A Crime die?,New York,compositional,1,0.15384615384615385,0.0,252,1,0.15384615384615385,0.0,256,1,0.15384615384615385,0.0,252,1,0.15384615384615385,0.0,244
+What is the place of birth of the director of film Growing Up Smith?,Melbourne,compositional,0,0.0,0.0,251,0,0.0,0.0,254,0,0.0,0.0,251,0,0.0,0.0,255
+What is the place of birth of the composer of song Bullet (Misfits Song)?,"Lodi, New Jersey",compositional,0,0.0,0.0,248,0,0.0,0.0,254,0,0.0,0.0,248,0,0.0,0.0,255
+What nationality is Prince Napoléon Bonaparte's father?,French,compositional,1,0.0,0.0,256,1,0.0,0.0,249,1,0.0,0.0,256,1,0.0,0.0,248
+Where was the place of death of the director of film Sensational Janine?,Gräfelfing,compositional,1,0.05405405405405406,0.0,252,0,0.0,0.0,256,1,0.05405405405405406,0.0,252,1,0.05405405405405406,0.0,249
+"What is the date of death of Charles Mills, 1St Baron Hillingdon's father?",4 October 1872,compositional,1,0.0,0.0,249,0,0.0,0.0,253,1,0.0,0.0,255,1,0.0,0.0,255
+"Do the movies Seven Sinners (1936 Film) and Everyday (Film), originate from the same country?",yes,comparison,0,0.0,0.0,255,0,0.0,0.0,250,0,0.0,0.0,255,0,0.0,0.0,253
+"Which film has the director born later, Occhio, Malocchio, Prezzemolo E Finocchio or Jailhouse Rock (Film)?","Occhio, Malocchio, Prezzemolo E Finocchio",bridge_comparison,1,0.7499999999999999,0.0,254,1,0.7499999999999999,0.0,249,1,0.7499999999999999,0.0,254,1,0.7499999999999999,0.0,254
+What is the place of birth of Henrik Selberg's father?,Flora,compositional,0,0.0,0.0,254,0,0.0,0.0,253,0,0.0,0.0,254,0,0.0,0.0,254
+Where did M. K. Muthu's father die?,kauvery hospital,compositional,0,0.0,0.0,246,1,0.0,0.0,248,0,0.0,0.0,246,1,0.0,0.0,251
+"Who is the paternal grandfather of James Fitzgerald, 8Th Earl Of Desmond?","James FitzGerald, 6th Earl of Desmond",inference,1,0.25,0.0,255,1,0.21052631578947367,0.0,254,1,0.25,0.0,254,1,0.25,0.0,252
+"Which film has the director who was born later, Attack Of Life: The Bang Tango Movie or King Kong (2005 Film)?",Attack Of Life: The Bang Tango Movie,bridge_comparison,1,0.0,0.0,256,1,0.16216216216216214,0.0,256,1,0.0,0.0,255,1,0.0,0.0,255
+Where did Niklas Frank's father die?,Nuremberg,compositional,1,0.0,0.0,246,1,0.0,0.0,254,1,0.0,0.0,246,1,0.0,0.0,242
+Who is Mary Of Bourbon's paternal grandfather?,Francis,inference,0,0.0,0.0,254,1,0.0,0.0,253,0,0.0,0.0,254,1,0.0,0.0,253
+Who is the paternal grandfather of Diarmait Ua Briain?,Tadc mac Briain,inference,0,0.0909090909090909,0.0,255,0,0.0909090909090909,0.0,256,0,0.0909090909090909,0.0,255,0,0.0909090909090909,0.0,250
+Where did the director of film Search And Destroy (1995 Film) study?,California Institute of the Arts,compositional,0,0.13333333333333333,0.0,252,0,0.0,0.0,250,0,0.13333333333333333,0.0,252,0,0.13333333333333333,0.0,252
+What is the place of birth of the director of film Pages Of Life (Film)?,Concepción,compositional,0,0.0,0.0,253,0,0.0,0.0,248,0,0.0,0.0,253,0,0.0,0.0,234
+Who is the paternal grandfather of Uskhal Khan Tögüs Temür?,Khutughtu Khan,inference,0,0.0,0.0,249,0,0.0,0.0,253,1,0.0,0.0,249,1,0.0,0.0,253
+Where did the director of film Carbon (Film) study?,Film and Television Institute of India,compositional,1,0.2857142857142857,0.0,255,0,0.0,0.0,251,1,0.2857142857142857,0.0,255,1,0.2857142857142857,0.0,243
+"Who is the paternal grandmother of Renaud Iii, Count Of Soissons?","Adelaide, Countess of Soissons",inference,0,0.0,0.0,239,0,0.3333333333333333,0.0,239,0,0.0,0.0,239,0,0.0,0.0,239
+Who is Sultan Hatun's mother-in-law?,Emine Hatun,inference,1,0.0,0.0,251,1,0.0,0.0,253,1,0.0,0.0,251,1,0.0,0.0,249
+"What is the place of birth of Geoffrey Plantagenet, Count Of Anjou's wife?",Westminster,compositional,0,0.0,0.0,252,0,0.0,0.0,245,0,0.0,0.0,252,0,0.0,0.0,252
+Where was the director of film War Of The Buttons (1994 Film) born?,"Buffalo, New York",compositional,0,0.0,0.0,255,1,0.0,0.0,256,0,0.0,0.0,255,0,0.0,0.0,256
+"Which film was released more recently, Sacred Silence or Ek Haseena Thi Ek Deewana Tha?",Ek Haseena Thi Ek Deewana Tha,comparison,1,1.0,1.0,251,1,1.0,1.0,254,1,1.0,1.0,251,1,1.0,1.0,252
+"When did Thomas Knox, 3Rd Earl Of Ranfurly's father die?",21 March 1858,compositional,1,0.0,0.0,255,0,0.06666666666666667,0.0,248,1,0.0,0.0,256,1,0.0,0.0,256
+"Do the bands The Gordons (Duo) and Sacred Rite (Band), originate from the same country?",yes,comparison,0,0.0,0.0,250,0,0.0,0.0,252,0,0.0,0.0,250,0,0.0,0.0,255
+Who is Antoine-Charles Taschereau's paternal grandfather?,Thomas-Jacques Taschereau,inference,1,0.11764705882352941,0.0,244,1,0.08888888888888888,0.0,256,1,0.11764705882352941,0.0,244,1,0.0,0.0,248
+Do both films Masters Of The Sea (Film) and The Auction Mart have the directors from the same country?,yes,bridge_comparison,0,0.0,0.0,246,0,0.0,0.0,250,0,0.0,0.0,246,0,0.0,0.0,237
+"Who is the spouse of the composer of film Kalle Stropp, Grodan Boll Och Deras Vänner?",Eva Funck,compositional,1,0.0,0.0,254,1,0.07142857142857144,0.0,252,1,0.0,0.0,254,1,0.0,0.0,254
+Do both directors of films The Curse Of Iku and Cops And Robbers (1973 Film) have the same nationality?,yes,bridge_comparison,0,0.0,0.0,256,0,0.0,0.0,248,0,0.0,0.0,256,0,0.0,0.0,254
+"Where was the wife of Otto I, Count Of Guelders born?",Kelheim,compositional,0,0.0,0.0,256,0,0.0,0.0,255,0,0.0,0.0,256,0,0.0,0.0,248
+"Who is younger, Zhang Lifang or Lalengzama Vangchhia?",Lalengzama Vangchhia,comparison,1,0.0,0.0,245,1,0.0,0.0,247,1,0.0,0.0,245,1,0.0,0.0,235
+Where was the place of death of Thomas Sheridan (Soldier)'s father?,London,compositional,0,0.0,0.0,249,0,0.0,0.0,248,0,0.0,0.0,249,1,0.0,0.0,254
+"Which film whose director is younger, A Social Celebrity or A Sound Of Trumpets?",A Sound Of Trumpets,bridge_comparison,1,0.0,0.0,255,1,0.0,0.0,252,1,0.0,0.0,255,1,0.0,0.0,247
+What is the date of death of the founder of Suez Canal Company?,7 December 1894,compositional,0,0.0,0.0,251,1,0.0,0.0,253,0,0.0,0.0,251,0,0.0,0.0,256
+"Which film came out first, João Da Mata or Beautiful Girls (Film)?",João Da Mata,comparison,1,1.0,1.0,256,1,1.0,1.0,253,1,1.0,1.0,256,1,1.0,1.0,242
+"Who is younger, Empress Xiaoshurui or Goran Veselinovski?",Goran Veselinovski,comparison,1,1.0,1.0,250,1,1.0,1.0,250,1,1.0,1.0,250,1,1.0,1.0,250
+"Which film has the director who was born later, Budak Nafsu or The Bilingual Lover?",Budak Nafsu,bridge_comparison,1,0.14285714285714288,0.0,248,1,0.14285714285714288,0.0,253,1,0.14285714285714288,0.0,248,1,0.14285714285714288,0.0,241
+Where was the director of film Mark (Film) born?,Toronto,compositional,1,0.0,0.0,252,1,0.0,0.0,254,1,0.0,0.0,252,1,0.0,0.0,251
+Who is the maternal grandfather of Princess Alexandra Of Hanover (Born 1999)?,"Rainier III, Prince of Monaco",inference,0,0.041666666666666664,0.0,254,0,0.08333333333333333,0.0,256,0,0.041666666666666664,0.0,254,0,0.041666666666666664,0.0,254
+Are both Alex Bregman and Francesca Sterlacci from the same country?,yes,comparison,0,0.0,0.0,252,0,0.0,0.0,255,0,0.0,0.0,252,0,0.0,0.0,247
+"Which film has the director who was born later, Aloha, Bobby And Rose or The Elusive Avengers?","Aloha, Bobby And Rose",bridge_comparison,1,0.2666666666666667,0.0,255,1,0.2666666666666667,0.0,253,1,0.2666666666666667,0.0,255,1,0.2666666666666667,0.0,255
+What nationality is the performer of song Pareho Tayo?,Filipino,compositional,1,0.0,0.0,249,1,0.0,0.0,255,1,0.0,0.0,249,1,0.0,0.0,240
+Are the directors of both films Captain Calamity (Film) and Heaven Only Knows (Film) from the same country?,yes,bridge_comparison,0,0.0,0.0,252,0,0.0,0.0,252,0,0.0,0.0,252,0,0.0,0.0,236
+"Which film has the director died later, The Man From Lost River or Mcveagh Of The South Seas?",The Man From Lost River,bridge_comparison,1,0.0,0.0,248,1,0.0,0.0,249,1,0.0,0.0,248,1,0.0,0.0,255
+"Which film whose director is younger, Return Of The Hero or Home In Indiana?",Return Of The Hero,bridge_comparison,1,0.3157894736842105,0.0,245,1,0.3157894736842105,0.0,254,1,0.0,0.0,245,1,0.3157894736842105,0.0,245
+"Which film has the director died earlier, Crime Against Joe or Vagabonderne På Bakkegården?",Vagabonderne På Bakkegården,bridge_comparison,1,1.0,1.0,249,1,1.0,1.0,255,1,1.0,1.0,249,1,1.0,1.0,254
+Who is the maternal grandmother of Flavia Julia Constantia?,Eutropia,inference,0,0.0,0.0,253,1,0.0,0.0,247,0,0.0,0.0,253,0,0.0,0.0,256
+Who is the paternal grandmother of Princess Feodora Of Hohenlohe-Langenburg?,Countess Amalie Henriette of Solms-Baruth,inference,0,0.04347826086956522,0.0,256,1,0.0625,0.0,253,0,0.04347826086956522,0.0,256,1,0.04347826086956522,0.0,255
+"Which film has the director who died earlier, Slums Of Berlin or Phantom India?",Slums Of Berlin,bridge_comparison,1,0.0,0.0,250,1,0.0,0.0,256,1,0.0,0.0,250,1,0.0,0.0,234
+"Which film has the director who was born earlier, Toto In Paris or The Railroad Man?",Toto In Paris,bridge_comparison,1,0.16,0.0,253,1,0.07407407407407407,0.0,249,1,0.16,0.0,253,1,0.16,0.0,247
+Do both films King Uncle and Kanyaka (Film) have the directors from the same country?,yes,bridge_comparison,0,0.0,0.0,256,0,0.0,0.0,254,0,0.0,0.0,256,0,0.0,0.0,248
+Where was the place of death of Anne Devereux's husband?,Banbury,compositional,0,0.0,0.0,247,0,0.0,0.0,254,0,0.0,0.0,247,0,0.0,0.0,243
+"Who is Augustus Berkeley, 4Th Earl Of Berkeley's maternal grandmother?",Anne Brudenell,inference,0,0.0,0.0,250,0,0.0,0.0,253,0,0.0,0.0,250,0,0.0,0.0,250
+Who is the paternal grandfather of Chiang Hsiao-Wu?,Chiang Kai-shek,inference,0,0.0,0.0,251,0,0.037037037037037035,0.0,248,0,0.0,0.0,251,0,0.0,0.0,252
+"Which museum was founded first, Casoria Contemporary Art Museum or Leverian Collection?",Leverian Collection,comparison,1,0.0,0.0,254,1,0.0,0.0,254,1,0.0,0.0,254,1,0.0,0.0,254
+"Which film has the director died later, The Big Cube or Rangila Ratan?",Rangila Ratan,bridge_comparison,1,0.0,0.0,251,1,0.3076923076923077,0.0,253,1,0.0,0.0,251,1,0.0,0.0,241
+"Which film has the director who was born later, I'Ll Take Sweden or His Majesty, The American?",I'Ll Take Sweden,bridge_comparison,1,0.0,0.0,254,1,0.25,0.0,249,1,0.0,0.0,254,1,0.0,0.0,246
+"Which film has the director who is older, A Medal For Benny or King Of Chinatown?",A Medal For Benny,bridge_comparison,1,0.42857142857142855,0.0,253,1,0.0,0.0,255,1,0.42857142857142855,0.0,253,1,0.0,0.0,256
+What nationality is Julia Parker (Astrologer)'s husband?,British,compositional,1,0.0,0.0,255,0,0.0,0.0,256,1,0.0,0.0,255,1,0.0,0.0,248
+"Are the directors of films Who Are You, Polly Maggoo? and Mother Night (Film) both from the same country?",yes,bridge_comparison,0,0.0,0.0,248,0,0.0,0.0,246,0,0.0,0.0,248,0,0.0,0.0,244
+"Which film was released more recently, Fine Dead Girls or Venussian Tabutasco?",Venussian Tabutasco,comparison,1,0.0,0.0,255,1,0.0,0.0,253,1,0.0,0.0,255,1,0.0,0.0,243
+"Do both films, Humko Deewana Kar Gaye and Dozakh In Search Of Heaven, have the directors who are from the same country?",yes,bridge_comparison,0,0.0,0.0,252,0,0.0,0.0,254,0,0.0,0.0,252,0,0.0,0.0,251
+"Who lived longer, Neil Lloyd Macky or Domenico Cosselli?",Neil Lloyd Macky,comparison,1,0.0,0.0,245,1,0.8,0.0,252,1,0.0,0.0,245,1,0.8,0.0,252
+"Which film has the director born earlier, Farfallon or Man On The Tracks?",Man On The Tracks,bridge_comparison,1,0.21428571428571425,0.0,249,1,0.21428571428571425,0.0,253,1,0.21428571428571425,0.0,249,1,0.21428571428571425,0.0,249
+"Which film has the director who was born earlier, Legend Of The Inca Bridge or Gangs Of New York?",Legend Of The Inca Bridge,bridge_comparison,1,0.05714285714285715,0.0,250,1,0.09523809523809523,0.0,255,1,0.05714285714285715,0.0,250,1,0.05714285714285715,0.0,246
+"Which film has the director died later, Romeo, Juliet And Darkness or I Can Explain?","Romeo, Juliet And Darkness",bridge_comparison,1,0.47058823529411764,0.0,252,1,0.47058823529411764,0.0,255,1,0.47058823529411764,0.0,252,1,0.47058823529411764,0.0,253
+What is the place of birth of the director of film Alien From L.A.?,Hawaii,compositional,0,0.0,0.0,253,0,0.0,0.0,252,0,0.0,0.0,253,0,0.0,0.0,254
+"Which film has the director who was born first, The Gigolos or More About The Children Of Noisy Village?",More About The Children Of Noisy Village,bridge_comparison,1,0.0,0.0,256,0,0.0,0.0,251,1,0.0,0.0,246,1,0.0,0.0,246
+Where was the director of film The Planet (Film) born?,Bollnäs,compositional,1,0.0,0.0,249,1,0.0,0.0,248,1,0.0,0.0,249,1,0.0,0.0,244
+Are both Caracu River and South Fork Rogue River located in the same country?,no,comparison,1,0.0,0.0,241,1,0.0,0.0,250,1,0.0,0.0,241,1,0.0,0.0,241
+Are Guancangping Railway Station and Yangquan North Railway Station both located in the same country?,yes,comparison,0,0.0,0.0,187,0,0.0,0.0,187,0,0.0,0.0,187,0,0.0,0.0,187
+When was the director of film I Want Someone To Eat Cheese With born?,"June 5, 1962",compositional,1,0.0,0.0,252,1,0.0,0.0,244,1,0.0,0.0,252,1,0.0,0.0,244
+"Which album was released earlier, American Tunes or I'M In Love Again?",I'M In Love Again,comparison,1,0.38095238095238093,0.0,248,1,0.38095238095238093,0.0,253,1,0.38095238095238093,0.0,248,1,0.38095238095238093,0.0,236
+Where was the mother of Maria Of Jülich-Berg born?,Ansbach,compositional,0,0.0,0.0,255,0,0.0,0.0,254,0,0.0,0.0,255,0,0.0,0.0,254
+Where did Baha Al-Dawla's father die?,Baghdad,compositional,1,0.0,0.0,248,1,0.0,0.0,255,1,0.0,0.0,248,1,0.0,0.0,249
+Who is the spouse of the director of film Fire-Eater (Film)?,Pirkko Saisio,compositional,1,0.0,0.0,246,1,0.0,0.0,254,1,0.0,0.0,246,1,0.0,0.0,246
+"Which film was released more recently, Paul Temple'S Triumph or The Quick And The Undead?",The Quick And The Undead,comparison,1,0.0,0.0,251,1,0.0,0.0,250,1,0.0,0.0,251,1,0.0,0.0,248
+Do both films The Dust Of Naples and Col Cuore In Gola have the directors that share the same nationality?,yes,bridge_comparison,0,0.0,0.0,254,0,0.0,0.0,253,0,0.0,0.0,254,0,0.0,0.0,254
+"Which film came out earlier, La Marca De Satanás or Sofia'S Last Ambulance?",La Marca De Satanás,comparison,1,1.0,1.0,250,1,1.0,1.0,246,1,1.0,1.0,250,1,1.0,1.0,248
+"Which film has the director born earlier, High Society Blues or Counterblast?",Counterblast,bridge_comparison,1,0.0,0.0,251,1,0.0,0.0,254,1,0.0,0.0,251,1,0.0,0.0,232
+"Where was the place of death of the composer of song Hail, Hail, The Gang'S All Here?",London,compositional,0,0.0,0.0,252,0,0.0,0.0,256,0,0.0,0.0,252,0,0.0,0.0,252
+Are Justine Lupe and Mark Kistler both from the same country?,yes,comparison,0,0.0,0.0,256,0,0.0,0.0,254,0,0.0,0.0,256,0,0.0,0.0,243
+Who is the spouse of the director of film Confidentially Connie?,Ona Munson,compositional,0,0.0,0.0,251,0,0.0,0.0,256,0,0.0,0.0,251,0,0.0,0.0,237
+Which award the performer of song Constantemente Mía got?,Sanremo Music Festival,compositional,1,0.0,0.0,254,0,0.0,0.0,255,1,0.0,0.0,254,1,0.0,0.0,247
+"Which film has the director who died later, The Devil And Miss Jones or The Man In The Funny Suit?",The Man In The Funny Suit,bridge_comparison,1,0.18181818181818182,0.0,256,1,0.18181818181818182,0.0,253,1,0.18181818181818182,0.0,255,1,0.18181818181818182,0.0,255
+What nationality is the performer of song Gone Fishin' (Song)?,America,compositional,0,0.0,0.0,254,0,0.0,0.0,256,0,0.0,0.0,254,0,0.0,0.0,255
+Who is the spouse of the director of film The Thin Line (1980 Film)?,Moshé Mizrahi,compositional,0,0.0,0.0,253,0,0.0,0.0,241,0,0.0,0.0,253,0,0.0,0.0,255
+"Who lived longer, Octavius Hammond or Curumsey Damjee?",Curumsey Damjee,comparison,1,0.2222222222222222,0.0,249,1,0.2222222222222222,0.0,251,1,0.2222222222222222,0.0,249,1,0.2222222222222222,0.0,246
+Do both directors of films The Wrath Of Silence and Legend Of The Fox have the same nationality?,yes,bridge_comparison,0,0.0,0.0,256,0,0.0,0.0,254,0,0.0,0.0,256,0,0.0,0.0,244
+"Who was born later, Park So-Jin or Joseph M. Pettit?",Park So-Jin,comparison,1,0.0,0.0,248,1,0.0,0.0,256,1,0.0,0.0,248,1,0.0,0.0,250
+"Which film was released first, Taxi! or What'S Your Hurry??",What'S Your Hurry?,comparison,1,0.0,0.0,245,1,0.0,0.0,244,1,0.0,0.0,245,1,0.0,0.0,248
+"Who was born later, Narayana Kasturi or Sigismund Toduță?",Sigismund Toduță,comparison,1,0.0,0.0,256,1,0.0,0.0,250,1,0.0,0.0,256,1,0.0,0.0,254
+"Which school was founded first, Colegio Israelita De México or Waldorf University?",Waldorf University,comparison,1,0.0,0.0,254,1,0.0,0.0,256,1,0.0,0.0,254,1,0.0,0.0,252
+Where does the director of film The Witnesses work at?,Cahiers du cinéma,compositional,1,0.0,0.0,255,1,0.0,0.0,255,1,0.0,0.0,255,0,0.0,0.0,252
+Who is Myat Phaya's maternal grandmother?,Hsinbyumashin,inference,0,0.0,0.0,255,0,0.0,0.0,251,0,0.0,0.0,255,0,0.0,0.0,256
+Who is Badi-Al Zaman Mirza Safavi's mother-in-law?,Sultan-Agha Khanum,inference,0,0.0,0.0,256,0,0.0,0.0,254,0,0.0,0.0,256,0,0.0,0.0,247
+"Which film was released more recently, Secret Of St. Job Forest or Kenny Begins?",Kenny Begins,comparison,1,0.0,0.0,251,1,0.0,0.0,253,1,0.0,0.0,251,1,0.0,0.0,253
+"Who is Eleanor Of Aragon, Countess Of Toulouse's paternal grandfather?",Ramon Berenguer IV,inference,1,0.0,0.0,240,1,0.0,0.0,248,1,0.0,0.0,240,1,0.0,0.0,243
+"Do the movies Before The Streets and Buchanan Rides Alone, originate from the same country?",no,comparison,1,0.0,0.0,256,1,0.0,0.0,250,1,0.0,0.0,256,1,0.0,0.0,256
+Where was the place of death of the director of film Curse Of The Crimson Altar?,"Durban, South Africa",compositional,0,0.0,0.0,256,0,0.0,0.0,248,0,0.0,0.0,256,0,0.0,0.0,253
+"Which film was released more recently, The Singing Fool or La Ragazzola?",La Ragazzola,comparison,1,0.33333333333333337,0.0,250,1,0.33333333333333337,0.0,242,1,0.33333333333333337,0.0,250,1,0.0,0.0,254
+"Which film has the director who died earlier, Naa Mechida Huduga or The Countess Died Of Laughter?",The Countess Died Of Laughter,bridge_comparison,1,0.0,0.0,251,1,0.0,0.0,253,1,0.0,0.0,251,1,0.0,0.0,256
+Who is the paternal grandfather of Margaret Drummond (Mistress)?,Sir Malcolm Drummond of Cargill,inference,1,0.0888888888888889,0.0,252,1,0.14814814814814814,0.0,246,1,0.0888888888888889,0.0,252,0,0.14814814814814814,0.0,256
+"Who is the paternal grandmother of Edward Despenser, 1St Baron Despenser?",Eleanor de Clare,inference,1,0.0,0.0,254,1,0.0,0.0,256,1,0.0,0.0,256,1,0.0,0.0,246
+"Which film has the director who was born first, Angel And The Badman or Happy Days In Aranjuez?",Happy Days In Aranjuez,bridge_comparison,1,0.0,0.0,254,1,0.3076923076923077,0.0,246,1,0.0,0.0,255,1,0.0,0.0,255
+Where was the place of burial of Marie-Louise Loubet's husband?,Montélimar,compositional,0,0.0,0.0,256,0,0.0,0.0,247,0,0.0,0.0,256,0,0.0,0.0,255
+"Which film whose director is younger, The Last Face or The Jackhammer Massacre?",The Last Face,bridge_comparison,1,0.0,0.0,250,1,0.0,0.0,249,1,0.0,0.0,250,1,0.0,0.0,247
+"Which film whose director was born first, Maker Of Men or Kentucky Kernels?",Maker Of Men,bridge_comparison,1,0.0,0.0,254,0,0.0,0.0,247,1,0.0,0.0,255,1,0.0,0.0,255
+Who is the father of the performer of song Don'T Touch My Hair?,Mathew Knowles,compositional,1,0.5,0.0,245,1,0.0,0.0,254,1,0.5,0.0,245,0,0.0,0.0,256
+Where did the director of film Desolation Angels (1995 Film) graduate from?,State University of New York at Purchase,compositional,1,0.0,0.0,255,1,0.0,0.0,251,1,0.0,0.0,255,1,0.0,0.0,252
+What is the place of birth of the director of film I'M Not Mata Hari?,Madrid,compositional,1,0.0,0.0,255,1,0.0,0.0,252,1,0.0,0.0,255,1,0.0,0.0,255
+What is the award that the director of film Napoleon (1995 Film) got?,Emmy Award,compositional,1,0.0,0.0,255,1,0.0,0.0,249,1,0.0,0.0,255,1,0.0,0.0,250
+"Which film has the director who was born first, The Girl In 419 or Dunked In The Deep?",The Girl In 419,bridge_comparison,1,0.20689655172413793,0.0,256,1,0.0,0.0,256,1,0.20689655172413793,0.0,256,1,0.20689655172413793,0.0,242
+Was Recep Çetin or Kim Ho born first?,Kim Ho,comparison,1,1.0,1.0,255,1,1.0,1.0,251,1,1.0,1.0,255,1,1.0,1.0,248
+Who is Robert Vere Buxton's paternal grandfather?,"Sir Edward Buxton, 2nd Baronet",inference,1,0.19999999999999998,0.0,256,0,0.19999999999999998,0.0,251,1,0.19999999999999998,0.0,256,1,0.19999999999999998,0.0,248
+Where was the place of burial of Dovid Bornsztain's father?,Sochaczew,compositional,0,0.0,0.0,250,0,0.0,0.0,249,0,0.0,0.0,250,0,0.0,0.0,256
+Who was born first out of Ole Jakobsen and Finnbjörn Þorvaldsson?,Finnbjörn Þorvaldsson,comparison,1,0.0,0.0,248,1,0.0,0.0,251,1,0.0,0.0,248,1,0.0,0.0,249
+"Who was born later, Brahima Cissé or Väinö Malmivaara?",Brahima Cissé,comparison,1,1.0,1.0,256,1,1.0,1.0,244,1,1.0,1.0,256,1,1.0,1.0,251
+Are The Untouchables (Film) and Meeting Venus from the same country?,yes,comparison,0,0.0,0.0,255,0,0.0,0.0,253,0,0.0,0.0,255,0,0.0,0.0,246
+Who is the spouse of the director of film The Golden Calf (1930 Film)?,Mary Eaton,compositional,0,0.0,0.0,250,0,0.0,0.0,252,0,0.0,0.0,252,0,0.0,0.0,252
+"Who is Princess Adrienne, Duchess Of Blekinge's mother?","Princess Madeleine, Duchess of Hälsingland and Gästrikland",inference,1,0.2941176470588235,0.0,255,0,0.2941176470588235,0.0,251,1,0.2941176470588235,0.0,255,1,0.2941176470588235,0.0,240
+"Which film was released more recently, Daredevil'S Time or Paid In Error?",Daredevil'S Time,comparison,1,1.0,1.0,256,1,1.0,1.0,255,1,1.0,1.0,256,1,1.0,1.0,235
+Where was the place of death of Teresa D'Entença's husband?,Barcelona,compositional,1,0.0,0.0,251,1,0.0,0.0,254,1,0.0,0.0,251,1,0.0,0.0,251
+"Which film whose director is younger, I Was A Student At Heidelberg or Deadly Eyes?",Deadly Eyes,bridge_comparison,1,0.0,0.0,256,1,0.0,0.0,256,1,0.0,0.0,256,1,0.0,0.0,239
+Where does the director of film Man At Bath work at?,Cahiers du cinéma,compositional,0,0.0,0.0,253,0,0.0,0.0,248,0,0.0,0.0,253,0,0.0,0.0,250
+Where did the director of film The Marihuana Story die?,Madrid,compositional,0,0.0,0.0,250,0,0.0,0.0,256,0,0.0,0.0,250,0,0.0,0.0,235
+"Which film came out earlier, Hell And Back Again or Buster & Chauncey'S Silent Night?",Buster & Chauncey'S Silent Night,comparison,1,1.0,1.0,256,1,1.0,1.0,254,1,1.0,1.0,256,1,1.0,1.0,243
+Where was the husband of Emily Davenport born?,"Williamstown, Vermont",compositional,1,0.08,0.0,244,1,0.5,0.0,250,1,0.08,0.0,244,1,0.08,0.0,252
+What is the place of birth of the director of film Dollar (1938 Film)?,Helsingfors,compositional,0,0.0,0.0,254,0,0.0,0.0,256,0,0.0,0.0,254,0,0.0,0.0,252
+"Which film has the director who is older than the other, The Man With The Glass Eye or The Pom Pom Girls? ",The Man With The Glass Eye,bridge_comparison,1,0.23529411764705882,0.0,255,1,0.23529411764705882,0.0,256,1,0.23529411764705882,0.0,255,1,0.23529411764705882,0.0,255
+"Which film has the director died earlier, The Nun And The Devil or Aladdin'S Other Lamp?",Aladdin'S Other Lamp,bridge_comparison,1,1.0,1.0,255,1,1.0,1.0,253,1,1.0,1.0,255,1,1.0,1.0,249
+Who is Shamsher Bahadur I (Krishna Rao)'s maternal grandfather?,Chhatrasal,inference,0,0.0,0.0,256,0,0.0,0.0,255,0,0.0,0.0,256,0,0.0,0.0,252
+"Who died later, Giovanni Dei Conti Di Segni or Sakari Simelius?",Sakari Simelius,comparison,1,0.0,0.0,249,1,0.0,0.0,248,1,0.0,0.0,249,1,0.0,0.0,249
+Who is the child of the director of film Anna (1970 Film)?,Johan Donner,compositional,1,0.07692307692307693,0.0,253,0,0.07692307692307693,0.0,252,1,0.07692307692307693,0.0,253,1,0.07692307692307693,0.0,255
+Where was the director of film Everybody'S Woman born?,Saarbrücken,compositional,0,0.0,0.0,256,0,0.0,0.0,253,0,0.0,0.0,256,0,0.0,0.0,248
+"What is the date of death of George Tryon, 1St Baron Tryon's father?",22 June 1893,compositional,1,0.0,0.0,253,0,0.0,0.0,251,1,0.0,0.0,251,1,0.0,0.0,251
+What is the cause of death of performer of song Just Playing (Dreams)?,drive-by shooting,compositional,1,0.0,0.0,255,1,0.0,0.0,253,1,0.0,0.0,255,1,0.0,0.0,244
+Where was the place of death of Flavia Domitilla (Saint)'s husband?,Roman,compositional,1,0.0,0.0,255,1,0.0,0.0,253,1,0.0,0.0,250,1,0.0,0.0,250
+"Which album came out first, Bare Wires or Dead Vent 7?",Bare Wires,comparison,1,0.0,0.0,246,1,0.0,0.0,246,1,0.0,0.0,246,1,0.0,0.0,246
+"Do the movies Beyond The Reach and Mondovino, originate from the same country?",yes,comparison,0,0.0,0.0,249,0,0.0,0.0,254,0,0.0,0.0,249,0,0.0,0.0,231
+Why did Edward Despenser (Died 1342)'s father die?,"hanged, drawn and quartered",compositional,0,0.0,0.0,252,1,0.0,0.0,250,0,0.0,0.0,252,0,0.0,0.0,255
+Where was the father of Clara Maria Of Pomerania-Barth born?,Wolgast,compositional,1,0.0,0.0,253,1,0.0,0.0,253,1,0.0,0.0,253,1,0.0,0.0,256
+Are both Son Of Rambow and From Bedrooms To Billions from the same country?,yes,comparison,0,0.0,0.0,249,0,0.0,0.0,251,0,0.0,0.0,249,0,0.0,0.0,253
+Who is the maternal grandfather of Antiochus X Eusebes?,Ptolemy IX Lathyros,inference,0,0.28571428571428575,0.0,251,0,0.0,0.0,255,0,0.28571428571428575,0.0,251,0,0.0,0.0,240
+Are Four Eyed Monsters and Joseph And The Amazing Technicolor Dreamcoat (Film) from the same country?,no,comparison,1,0.0,0.0,255,1,0.0,0.0,253,1,0.0,0.0,255,1,0.0,0.0,255
+Who was born first out of Peter Haslop and Barbara Nawratowicz?,Barbara Nawratowicz,comparison,1,0.0,0.0,254,1,0.0,0.0,248,1,0.0,0.0,254,1,0.0,0.0,244
+Where was the mother of Adela Of Pfalzel born?,Trier,compositional,0,0.0,0.0,255,1,0.0,0.0,255,0,0.0,0.0,255,0,0.0,0.0,235
+"Where was the place of burial of Ælfgar, Earl Of Mercia's mother?",Coventry,compositional,1,0.0,0.0,255,0,0.0,0.0,244,1,0.0,0.0,255,1,0.0,0.0,248

@@ -1,0 +1,2 @@
+question,gold,topk_aic,topk_f1,topk_em,topk_tokens,mmr_aic,mmr_f1,mmr_em,mmr_tokens,focused_aic,focused_f1,focused_em,focused_tokens,answer_survival_aic,answer_survival_f1,answer_survival_em,answer_survival_tokens
+In what year was the university where Sergei Aleksandrovich Tokarev was a professor founded?,1755,1,0.0,0.0,160,1,0.0,0.0,157,1,0.0,0.0,160,0,0.0,0.0,159

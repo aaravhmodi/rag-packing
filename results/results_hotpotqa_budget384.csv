@@ -1,0 +1,201 @@
+question,gold,qtype,topk_aic,topk_f1,topk_em,topk_tokens,mmr_aic,mmr_f1,mmr_em,mmr_tokens,focused_aic,focused_f1,focused_em,focused_tokens,answer_survival_aic,answer_survival_f1,answer_survival_em,answer_survival_tokens
+In what year was the university where Sergei Aleksandrovich Tokarev was a professor founded?,1755,bridge,1,0.0,0.0,335,1,0.0,0.0,335,1,0.0,0.0,335,1,0.0,0.0,335
+Black Book starred the actress and writer of what heritage?,Dutch,bridge,1,0.0,0.0,384,1,0.0,0.0,383,1,0.0,0.0,384,1,0.0,0.0,371
+Which actor does American Beauty and American Beauty have in common?,Kevin Spacey,bridge,1,0.0,0.0,380,1,0.0,0.0,376,1,0.0,0.0,373,1,0.0,0.0,373
+Ken Pruitt  was a Republican member of an upper house of the legislature with how many members ?,40 members,bridge,1,0.0,0.0,374,1,0.0,0.0,383,1,0.0,0.0,374,1,0.0,0.0,375
+"Between Greyia and Calibanus, which genus contains more species?",Greyia,comparison,1,0.0,0.0,359,1,0.0,0.0,378,1,0.0,0.0,359,1,0.0,0.0,359
+Did John Updike and Tom Clancy both publish more than 15 bestselling novels?,yes,comparison,0,0.0,0.0,382,0,0.0,0.0,364,0,0.0,0.0,382,0,0.0,0.0,377
+Who was hung for assisting the attempted surrender of a defector from the American Continental Army to the British Army?,John André,bridge,1,0.1,0.0,374,1,0.1,0.0,373,1,0.1,0.0,374,1,0.1,0.0,375
+which Mexican and American film actress is Ethel Houbiers  French voice of ,Salma Hayek Pinault,bridge,1,0.0,0.0,384,1,0.0,0.0,381,1,0.0,0.0,384,1,0.0,0.0,368
+Which major international airport in south-east England ranks as the 8th busiest airport in Europe and replaced Croydon Airport?,Gatwick Airport,bridge,1,0.08,0.0,379,1,0.08,0.0,378,1,0.08,0.0,379,1,0.08,0.0,378
+Isabella Kelly was born at a ruined castle characterized as one of the most isolated fortifications in Britain by who?,The Changing Scottish Landscape,bridge,1,0.0,0.0,371,1,0.0,0.0,380,1,0.0,0.0,371,1,0.0,0.0,362
+The facility where Robert Croft worked as a navy instructor was also known as?,"""Home of the Submarine Force""",bridge,1,0.08333333333333334,0.0,380,0,0.1142857142857143,0.0,382,1,0.08333333333333334,0.0,378,1,0.08333333333333334,0.0,370
+"Who released the song ""With or Without You"" first, Jai McDowall or U2?",U2,bridge,1,0.0,0.0,372,1,0.0,0.0,381,1,0.0,0.0,372,1,0.0,0.0,354
+"Which ""Roseanne"" star is in Scream 2?",Laurie Metcalf,bridge,0,0.0,0.0,378,0,0.0,0.0,382,0,0.0,0.0,378,0,0.0,0.0,373
+In what city is the company that Fastjet Tanzania was originally founded as a part of prior to rebranding based?,"Nairobi, Kenya",bridge,1,0.0,0.0,375,0,0.0,0.0,377,1,0.0,0.0,375,0,0.0,0.0,368
+"What is the name of the Australian specialist electronic music magazine that features avant-rock, experimental sound art, and experimental hip hop?",Cyclic Defrost,bridge,1,0.0,0.0,384,1,0.0,0.0,368,1,0.0,0.0,384,1,0.0,0.0,383
+What is the population of the city that Munsonville is in the northwest corner of?,729 at the 2010 census,bridge,1,0.0,0.0,345,0,0.0,0.0,379,1,0.0,0.0,345,1,0.0,0.0,345
+A Pair of Brown Eyes and Wild Mountain Thyme is based from what artists song?,Francis McPeake,bridge,1,0.0,0.0,384,1,0.0,0.0,357,1,0.0,0.0,384,1,0.0,0.0,381
+Armageddon in Retrospect was written by the author who was best known for what 1969 satire novel?,Slaughterhouse-Five,bridge,1,0.0,0.0,377,1,0.0,0.0,380,1,0.0,0.0,379,1,0.0,0.0,351
+What class of instrument does Apatim Majumdar play?,strings,bridge,0,0.0,0.0,380,0,0.0,0.0,380,0,0.0,0.0,380,0,0.0,0.0,379
+" Which movie did Disney produce first,  The Many Adventures of Winnie the Pooh or Ride a Wild Pony?",Ride a Wild Pony,comparison,1,0.0,0.0,384,1,0.19999999999999998,0.0,375,1,0.0,0.0,384,1,0.0,0.0,379
+Pandikona and Berger Blanc Suisse are both what kinds of animals?,dogs,comparison,1,0.0,0.0,373,1,0.0,0.0,373,1,0.0,0.0,373,1,0.0,0.0,373
+The Prussian General Carl von Clausewitz is associated with what type of realism?,Modern thinkers associated with classical realism are Carl von Clausewitz,bridge,1,0.8,0.0,372,1,0.8,0.0,378,1,0.8,0.0,381,1,0.8,0.0,381
+What where both Hawker Hurricane and No. 1455 Flight apart of?,Royal Air Force,bridge,1,0.0,0.0,384,1,0.0,0.0,376,1,0.0,0.0,384,1,0.0,0.0,382
+what language did the ethnic group which Torstein Ellingsen was its drumer  speaks ,Norwegian language,bridge,1,0.0,0.0,361,1,0.0,0.0,361,1,0.0,0.0,361,1,0.0,0.0,361
+"From March 631 to April 631, Farrukhzad Khosrau V was the king of an empire that succeeded which empire?",the Parthian Empire,bridge,1,0.11764705882352941,0.0,384,1,0.11764705882352941,0.0,381,1,0.11764705882352941,0.0,384,1,0.11764705882352941,0.0,381
+"Beer Wars covers the differences between large corporate breweries, and small breweries, such as what brewery that is headquartered in Escondido, california?",Stone Brewing,bridge,1,0.0,0.0,370,1,0.0,0.0,384,1,0.0,0.0,370,1,0.0,0.0,354
+"Which head coach has led their team for a longer period of time, Tim Cluess or Steve Prohm?",Tim Cluess,bridge,1,0.5,0.0,369,1,0.5,0.0,361,1,0.5,0.0,369,1,0.5,0.0,369
+During what war were the Russia-United Kingdom relations in a state of rivalry after the abdication of Emperor Nicholas II? ,the Cold War (1947–91),bridge,1,0.0,0.0,382,1,0.0,0.0,373,0,0.0,0.0,384,0,0.0,0.0,384
+How far from Sacramento is the flight school in Atwater?,about 115 miles (185 km),bridge,1,0.0,0.0,378,1,0.0,0.0,378,1,0.0,0.0,378,1,0.0,0.0,378
+Baraki Barak District is situated in the western part of a province whose capital is what?,Puli Alam,bridge,1,0.0,0.0,371,1,0.0,0.0,383,1,0.0,0.0,371,1,0.0,0.0,376
+What was the 2010 population of the town where Black Crescent Mountain was located? ,310,bridge,1,0.0,0.0,383,1,0.0,0.0,373,1,0.0,0.0,383,1,0.0,0.0,383
+"In the NASA mission where Moon trees were taken into space, what was the nickname of the Command Module?","""Kitty Hawk""",bridge,0,0.0,0.0,366,1,0.0,0.0,369,1,0.0,0.0,370,1,0.0,0.0,375
+Which comic series involves characters such as Nick Fury and Baron von Strucker?,Marvel,bridge,1,0.0,0.0,375,1,0.0,0.0,375,1,0.0,0.0,383,1,0.0,0.0,379
+College Humor is a 1933 American pre-Code musical comedy film that starred what American singer and actor who has a trademark warm bass-baritone voice?,"Harry Lillis ""Bing"" Crosby Jr.",bridge,1,0.12903225806451613,0.0,377,1,0.12903225806451613,0.0,384,1,0.12903225806451613,0.0,377,1,0.12903225806451613,0.0,371
+Who is writing a book about the Koch family who control the second-largest privately owned company in the United States?,Jane Mayer,bridge,0,0.0,0.0,373,0,0.0,0.0,380,0,0.0,0.0,374,0,0.0,0.0,374
+New York State Route 9R rejoins its parent in a hamlet located  in what New York County?,Albany,bridge,1,0.0,0.0,367,1,0.0,0.0,382,1,0.0,0.0,373,1,0.0,0.0,373
+12 Years a Slave starred what British actor born 10 July 1977),Chiwetel Ejiofor,bridge,1,0.3076923076923077,0.0,376,1,0.3076923076923077,0.0,362,1,0.3076923076923077,0.0,376,1,0.3076923076923077,0.0,362
+What was the capital of India when the Taj Mahal was commissioned?,Agra,bridge,1,0.0,0.0,384,1,0.0,0.0,383,1,0.0,0.0,384,1,0.0,0.0,382
+"In what city did the ""Prince of tenors"" star in a film based on an opera by Giacomo Puccini?",Rome,bridge,0,0.0,0.0,375,0,0.0,0.0,382,0,0.0,0.0,375,0,0.0,0.0,363
+What river can a  large African bovine be seen bathing in in the Mwabvi Wildlife Reserve?,Buffalo,bridge,1,0.0,0.0,369,1,0.0,0.0,380,1,0.0,0.0,369,1,0.0,0.0,383
+Jalen Jones plays basketball for an NBA team that plays their home games in what arena?,Smoothie King Center,bridge,1,0.33333333333333337,0.0,366,1,0.33333333333333337,0.0,379,1,0.33333333333333337,0.0,366,1,0.33333333333333337,0.0,383
+The On Tour Forever album gave Blues Traveler the opportunity to display what musical trademark?,extensive use of segues,bridge,0,0.0,0.0,370,0,0.0,0.0,378,0,0.0,0.0,370,0,0.0,0.0,370
+Which Victorian poet was born in a 15th-century castle home to the Earl of Southesk?,Charlotte Carnegie,bridge,1,0.11764705882352941,0.0,374,1,0.11764705882352941,0.0,374,1,0.11764705882352941,0.0,374,1,0.11764705882352941,0.0,374
+Alexander Petrovich Nikolayev received the title Hero of the Soviet Union and the Order of Lenin for his actions during the   the final major offensive of the European theatre of what war?,World War II,bridge,1,0.0,0.0,378,1,0.0,0.0,381,1,0.0,0.0,378,1,0.0,0.0,378
+Where did Cale Gundy's brother play football in college?,Oklahoma State University,bridge,1,0.0,0.0,374,1,0.0,0.0,364,1,0.0,0.0,374,1,0.0,0.0,350
+"Who has released more solo albums, Nick Carter or Brady Seals?",Brady Seals,comparison,1,0.0,0.0,372,1,0.0,0.0,375,1,0.0,0.0,372,1,0.0,0.0,372
+"Which Istanbul mosque is unique for retaining a Baroque style of architecture, the Bayezid II Mosque or the Nusretiye Mosque?",Nusretiye Mosque,comparison,1,0.0,0.0,382,1,0.0,0.0,381,1,0.0,0.0,375,1,0.0,0.0,375
+"What university did the last Detroit Pistons player to wear the number retired in honor of a player nicknamed ""The Worm"" attend?",Georgetown University,bridge,1,0.0,0.0,376,1,0.0,0.0,380,1,0.0,0.0,383,1,0.0,0.0,382
+The Atik Valide Mosque and Valens Aqueduct are found in what country?,Turkey,comparison,1,0.0,0.0,383,1,0.0,0.0,371,1,0.0,0.0,383,1,0.0,0.0,370
+"Which of the four US Presidents who have been assinated was shot on the grounds of the Pan-American Exposition at the Temple of Music in Buffalo, New York?",William McKinley,bridge,1,0.14285714285714288,0.0,382,1,0.14285714285714288,0.0,379,1,0.14285714285714288,0.0,382,1,0.14285714285714288,0.0,382
+Who created the NBC sitcom that Johnny Pemberton appears in as the character Bo Thompson?,Justin Spitzer,bridge,1,0.0,0.0,373,1,0.0,0.0,376,1,0.0,0.0,373,1,0.0,0.0,373
+Were Halldór Laxness and Timothy Leary from the same country?,no,comparison,1,0.0,0.0,375,1,0.0,0.0,378,1,0.0,0.0,375,1,0.0,0.0,381
+Do both Korematsu v. United States and Chaplinsky v. New Hampshire cases regard the rights of U. S. citizens?,yes,comparison,0,0.0,0.0,377,0,0.0,0.0,383,0,0.0,0.0,384,0,0.0,0.0,365
+ What is the title of the memoir written by the honoree of the Black and White Ball?,Personal History,bridge,1,0.0,0.0,378,1,0.0,0.0,383,1,0.0,0.0,378,1,0.0,0.0,378
+What country is the theme park served by the Huis Ten Bosch train service themed on?,Netherlands,bridge,1,0.0,0.0,384,1,0.0,0.0,375,1,0.0,0.0,384,1,0.0,0.0,375
+The Distribution of Industry act was passed by a man who was prime minister when? ,1945 to 1951,bridge,0,0.0,0.0,369,0,0.044444444444444446,0.0,366,0,0.0,0.0,369,0,0.0,0.0,365
+"What Cantonese slang term can mean both ""ghost man"" and to refer to Westerners?",Gweilo,bridge,1,0.11764705882352941,0.0,382,1,0.11764705882352941,0.0,379,1,0.11764705882352941,0.0,382,1,0.11764705882352941,0.0,382
+In what year was the most famous statute at Po Lin Monastery built?,Tian Tan Buddha,bridge,1,0.0,0.0,384,1,0.0,0.0,379,1,0.0,0.0,384,1,0.0,0.0,370
+" The Nike Hoop Summit has had many current NBA players as former participants, including what German player from the Dallas Mavericks?",Dirk Werner Nowitzki,bridge,1,0.2608695652173913,0.0,368,1,0.2608695652173913,0.0,370,1,0.2608695652173913,0.0,384,1,0.2608695652173913,0.0,366
+Which actor from the South Korean-Thai drama film Final Recipe debuted as a member of Super Junior-M in 2008?,Henry Lau,bridge,0,0.0,0.0,378,0,0.0,0.0,367,0,0.0,0.0,376,0,0.0,0.0,376
+Are Phlebodium and Pieris both species of ferns?,no,comparison,1,0.0,0.0,381,1,0.0,0.0,378,1,0.0,0.0,381,1,0.0,0.0,362
+Who was the great grandfather of Franklin Seaver Pratt's wife?,Kalokuokamaile,bridge,1,0.04878048780487806,0.0,381,1,0.03333333333333333,0.0,373,1,0.04878048780487806,0.0,381,1,0.04878048780487806,0.0,381
+At what age did Cieli di Toscana's singer become blind?,Bocelli became completely blind at the age of 12,bridge,1,0.0,0.0,377,1,0.0,0.0,379,1,0.0,0.0,377,1,0.0,0.0,372
+Which late 1980s and 1990s English super model was featured in the song nasty girl by The Notorious B.I.G.?,Naomi Elaine Campbell,bridge,1,0.0,0.0,375,1,0.0,0.0,377,1,0.2608695652173913,0.0,377,1,0.2608695652173913,0.0,383
+What is the name of the film directed by Alex Cox  adapted from a 1606 play starring Diana Quick as the Dutchess?,Revengers Tragedy,bridge,1,0.0,0.0,380,1,0.0,0.0,383,1,0.0,0.0,380,1,0.0,0.0,380
+Josh Trank and Mike Valerio both work in what industry?,entertainment,comparison,1,0.0,0.0,367,1,0.0,0.0,367,1,0.0,0.0,367,1,0.0,0.0,367
+"Which American comedian born on March 21, 1962, appeared in the movie ""Sleepless in Seattle?""",Rosie O'Donnell,bridge,1,0.125,0.0,382,1,0.125,0.0,382,1,0.125,0.0,382,1,0.125,0.0,382
+Any Questions for Ben? was directed by which Australian producer and actor?,"Robert Ian ""Rob"" Sitch",bridge,1,0.0,0.0,381,1,0.0,0.0,361,1,0.0,0.0,377,1,0.0,0.0,374
+What American indie rock group first had Jesse Sandoval as the drummer and now has Jon Sortland on drums?,The Shins,bridge,1,0.16666666666666669,0.0,377,1,0.16666666666666669,0.0,382,1,0.16666666666666669,0.0,374,1,0.16666666666666669,0.0,374
+What 3 countries are part of the legal name of the airline that merged with Braathens in 2004?,Denmark–Norway–Sweden,bridge,0,0.0,0.0,369,0,0.0,0.0,372,0,0.0,0.0,369,0,0.0,0.0,368
+What is the ratio of flow velocity past a boundary to the local speed of sound for a Saab JAS 39 Gripen?,2,bridge,1,0.0,0.0,381,1,0.0,0.0,384,1,0.0,0.0,380,1,0.0,0.0,375
+"SWX Right Now airs on the station that broadcasts on what channel in Billings, Montana?",8,bridge,1,0.0,0.0,355,1,0.0,0.0,355,1,0.0,0.0,355,1,0.0,0.0,355
+"Which player, who also played for the New Jersey Nets and the Golden State Warriors, finished third in the league with 231 three-point field goals during the 1995-96 Atlanta Hawks season?",Mookie Blaylock,bridge,1,0.0,0.0,373,1,0.0,0.0,380,1,0.0,0.0,384,1,0.0,0.0,384
+Saltillo Engine is an engine plant in Ramos Arizpe that belongs to the American subsidiary of what company?,Fiat Chrysler Automobiles N.V.,bridge,1,0.13333333333333333,0.0,382,1,0.13333333333333333,0.0,382,1,0.13333333333333333,0.0,382,1,0.13333333333333333,0.0,382
+" What type of television show did Dylan Everett star in, in 2015?",American-Canadian mystery-drama,bridge,1,0.0,0.0,380,0,0.0,0.0,384,1,0.0,0.0,380,1,0.0,0.0,347
+"Which plant, the Chaerophyllum or the Cryptanthus, can be found in various places across the world?",Chaerophyllum,comparison,1,0.1111111111111111,0.0,380,1,0.1111111111111111,0.0,368,1,0.1111111111111111,0.0,380,1,0.1111111111111111,0.0,363
+"Johnny Mathis: Wonderful Wonderful aired at what luxury hotel, casino and spa resort located in Atlantic City, New Jersey?",Tropicana Casino & Resort,bridge,1,0.23076923076923078,0.0,381,0,0.2222222222222222,0.0,372,1,0.23076923076923078,0.0,379,1,0.23076923076923078,0.0,379
+Who wrote the lyrics for Linda Eder's Broadway debut?,"Wildhorn, Bricusse and Cuden",bridge,0,0.04651162790697674,0.0,375,1,0.0606060606060606,0.0,368,0,0.0606060606060606,0.0,375,0,0.04651162790697674,0.0,376
+"The Company They Keep is a book written by Diana Pavlac Glyer, who is a professor at a university in Azusa, California, that was founded in 1899, and is under the auspices of what religion?",evangelical Christian,bridge,1,0.0,0.0,379,1,0.0,0.0,373,1,0.0,0.0,379,1,0.0,0.0,365
+For One Night Only was hosted by the man most well-known for hosting what show from 1962 until 1999?,The Late Late Show,bridge,1,0.0,0.0,371,1,0.0,0.0,371,1,0.0,0.0,371,1,0.0,0.0,358
+What was the slogan  that came about from the idea of Lebensraum which had its most extreme form supported by the Nazi Party until the end of World War II?,Blood and soil,bridge,0,0.08333333333333333,0.0,379,1,0.08333333333333333,0.0,384,0,0.08333333333333333,0.0,381,0,0.08333333333333333,0.0,383
+Olivia DeJonge starred in an American horror film directed by Shyamalan called what,The Visit,bridge,1,0.0689655172413793,0.0,384,1,0.0689655172413793,0.0,383,1,0.0689655172413793,0.0,384,1,0.0689655172413793,0.0,375
+Who conducted the negotiations  with the owners and the longest serving commandant of Auschwitz concentration and extermination camp?,Rudolf Höss,bridge,1,0.1142857142857143,0.0,381,1,0.1142857142857143,0.0,371,1,0.1142857142857143,0.0,381,1,0.1142857142857143,0.0,381
+What genre is the novel from which the fast-food restaurant specializing in seafood derives its name?,an adventure novel,bridge,1,0.0,0.0,374,0,0.0,0.0,368,1,0.0,0.0,374,1,0.0,0.0,374
+What kind of musicians are Mark Gaudet and Jan Axel Blomberg?,drummer,bridge,1,0.0,0.0,375,1,0.0,0.0,375,1,0.0,0.0,375,1,0.0,0.0,375
+A Wind in the Door is part of a series written by who?,Madeleine L'Engle,bridge,1,0.18181818181818182,0.0,374,1,0.18181818181818182,0.0,383,1,0.0,0.0,374,1,0.0,0.0,353
+The Airport located next to the A13 handled how many passengers in 2016 ?,1.6 million passengers,bridge,1,0.0909090909090909,0.0,371,1,0.0909090909090909,0.0,375,1,0.0909090909090909,0.0,371,1,0.0909090909090909,0.0,371
+"The town of Sinclair, West Virginia, is named after the founder of the local oil drilling company. What is on Sinclair Oil's famous logo?",dinosaur,bridge,1,0.0,0.0,379,1,0.0,0.0,380,1,0.0,0.0,379,1,0.0,0.0,384
+Jihad: A Story of the Others is a documentary by the director who is of what descent?,Punjabi/Pashtun,bridge,1,0.0,0.0,384,0,0.0,0.0,376,1,0.0,0.0,384,1,0.0,0.0,355
+Minor league baseball games that were played between the rivalling teams of the Sooners and the Cowboys were played at the stadium formerly known as what?,Drillers Stadium,bridge,1,0.0,0.0,368,1,0.0,0.0,380,1,0.0,0.0,368,1,0.0,0.0,375
+Cooperative Living Organization is located in a city that is the county seat of what county in Florida?,Alachua,bridge,1,0.0,0.0,368,1,0.0,0.0,382,1,0.0,0.0,383,1,0.0,0.0,362
+"What is the pen name of author Carolyn Janice Cherry, who wrote the Fortress Series?","Carolyn Janice Cherry (born September 1, 1942), better known by the pen name C. J. Cherryh,",bridge,1,0.33333333333333337,0.0,373,1,0.33333333333333337,0.0,384,1,0.33333333333333337,0.0,373,1,0.33333333333333337,0.0,364
+"Which dog is believed to dispel ghosts and evil spirits, Segugio Italiano or Sapsali?",Sapsali,comparison,1,0.0,0.0,379,1,0.0,0.0,358,1,0.0,0.0,379,1,0.0,0.0,380
+"Which French aristocrat and military officer who fought in the American Revolutionary War visited this historic home located at Enfield, Halifax County, North Carolina, known as The Cellar?",Marquis de Lafayette,bridge,1,0.15,0.0,384,1,0.15,0.0,379,1,0.15,0.0,382,1,0.15,0.0,382
+What sports team included both of the brothers Case McCoy and Colt McCoy during different years?,University of Texas Longhorns,bridge,1,0.125,0.0,380,1,0.125,0.0,382,1,0.125,0.0,380,1,0.125,0.0,373
+Which member of The New Russian School was both a doctor and a chemist besides being a composer?,Alexander Porfiryevich Borodin,bridge,1,0.0,0.0,378,1,0.0,0.0,377,1,0.0,0.0,378,1,0.0,0.0,379
+"Susanna Thompson appeared in the courtroom drama film Ghosts of Mississippi, directed by who?",Rob Reiner,bridge,1,0.0,0.0,380,1,0.0,0.0,379,1,0.0,0.0,380,1,0.0,0.0,373
+Live Wire Radio will possibly be considered as a replacement for a variety show created in what year?,1974,bridge,1,0.0,0.0,377,1,0.0,0.0,382,1,0.0,0.0,377,1,0.0,0.0,364
+Luke Rockhold defeated the MMA fighter who was the first to earn a win against which champion in the UFC?,Anderson Silva,bridge,0,0.0,0.0,375,0,0.0,0.0,383,0,0.0,0.0,384,0,0.0,0.0,372
+What type of art does The Consul and Arlecchino have in common?,music,comparison,0,0.0,0.0,382,1,0.0,0.0,375,1,0.0,0.0,383,1,0.0,0.0,382
+Who is a Brazilian mixed martial artist in the UFC who Namsaknoi Yudthagarngamtorn coached?,Rafael Souza dos Anjos,bridge,1,0.0,0.0,369,1,0.0,0.0,382,1,0.0,0.0,384,1,0.0,0.0,384
+"Which has more species, Lysiloma or Hydrocotyle umbellata?",Lysiloma,comparison,1,0.0,0.0,312,1,0.0,0.0,312,1,0.0,0.0,312,1,0.0,0.0,312
+Are the films Gasland from 2010 and Pumping Iron from 1977 both documentaries?,yes,comparison,0,0.0,0.0,378,0,0.0,0.0,374,0,0.0,0.0,378,0,0.0,0.0,374
+"Rosemary Willis was seen in the grass in what Texas town, where John F. Kennedy was assassinated?",Dallas,bridge,1,0.07999999999999999,0.0,378,1,0.07999999999999999,0.0,382,1,0.07999999999999999,0.0,379,1,0.07999999999999999,0.0,374
+"Which king of Northumbria did The ""Historia"" gives the abbot central place in his election as king",Guthred or Guthfrith,bridge,1,0.05263157894736842,0.0,384,1,0.05263157894736842,0.0,372,1,0.05263157894736842,0.0,373,1,0.05263157894736842,0.0,363
+"Mooreville, Mississippi is located on which Interstate highway that follows US Route 78?",Interstate 22,bridge,1,0.5,0.0,383,1,0.5,0.0,370,1,0.5,0.0,383,1,0.5,0.0,378
+Where is the casino that Summer Nights takes place in?,"Las Vegas Strip in Paradise, Nevada",bridge,0,0.0,0.0,368,0,0.0,0.0,375,0,0.0,0.0,368,0,0.0,0.0,375
+who was the anthropologist who thought that the plaster casts that were discovered by Paul Freeman were a critical piece of evidence?,"Don Jeffrey ""Jeff"" Meldrum (born May 24, 1958) is a Professor of Anatomy and Anthropology",bridge,0,0.1509433962264151,0.0,382,0,0.1509433962264151,0.0,376,0,0.1509433962264151,0.0,382,0,0.1509433962264151,0.0,368
+"What type of license is the open source roguelike video game video released 2012, in which a subset of it's pricing model is a called free-to-play, licensed under?",GNU GPLv3,bridge,1,0.0,0.0,384,1,0.0,0.0,380,1,0.0,0.0,384,1,0.0,0.0,384
+Mía Maestro had a role in the 2002 biopic directed by whom?,Julie Taymor,bridge,1,0.0,0.0,382,1,0.0,0.0,382,1,0.0,0.0,382,1,0.0,0.0,382
+UFO Magazine covers what subject named for Charles Hoy Fort?,Fortean,bridge,1,0.0,0.0,381,0,0.0,0.0,378,1,0.0,0.0,381,1,0.0,0.0,376
+Are both The Straight Story and Frozen films of the same genre?,no,comparison,1,0.0,0.0,377,1,0.0,0.0,371,1,0.0,0.0,377,1,0.0,0.0,372
+What 1876 battle featured the Other Magpie?,Battle of the Rosebud,bridge,1,0.5,0.0,376,1,0.5,0.0,379,1,0.5,0.0,376,1,0.5,0.0,376
+What Disney movie was the wrestler with the real name of John William Minton in?,Double Agent,bridge,1,0.0,0.0,382,1,0.0,0.0,378,1,0.0,0.0,382,1,0.0,0.0,380
+Who covered the song I Love You by Chris Write?,People! and The Carnabeats,bridge,0,0.031746031746031744,0.0,377,0,0.031746031746031744,0.0,378,0,0.031746031746031744,0.0,377,0,0.09090909090909091,0.0,384
+"Who was born first, Javier Frana or Sherwood Stewart?",Sherwood Stewart,comparison,1,0.0,0.0,362,1,0.0,0.0,362,1,0.0,0.0,362,1,0.0,0.0,362
+Are Dogo Cubano and the Dutch Shepherd both breeds of dog?,yes,comparison,0,0.0,0.0,382,0,0.0,0.0,378,0,0.0,0.0,382,0,0.0,0.0,359
+"Spawn, a fictional character who Mustafa Shakir has expressed interest in playing, was created by?",Todd McFarlane,bridge,1,0.0,0.0,348,1,0.0,0.0,348,1,0.0,0.0,348,1,0.0,0.0,348
+To where did the war criminal who is the fictional defendant in the film After the Truth flee in real life ?,South America,bridge,1,0.0,0.0,371,1,0.0,0.0,381,1,0.0,0.0,371,1,0.0,0.0,367
+What company did Rex Maughan aquire?,Aloe Vera of America,bridge,1,0.0,0.0,381,1,0.0,0.0,367,1,0.0,0.0,381,0,0.0,0.0,361
+"The 249th episode of ""The Simpsons"" was aired on what date?","November 1, 2000",bridge,0,0.0,0.0,370,0,0.0,0.0,370,0,0.0,0.0,370,0,0.0,0.0,370
+Which was built first Woolworth Building or 1 New York Plaza?,Woolworth Building,comparison,1,0.08,0.0,376,1,0.08,0.0,379,1,0.08,0.0,368,1,0.08,0.0,381
+"Where is the concert venue which hosted the first US performance of ""Libuše"" located?","Midtown Manhattan in New York City,",bridge,1,0.25,0.0,379,1,0.25,0.0,375,1,0.25,0.0,379,1,0.25,0.0,371
+When was the advisor of Alpher–Bethe–Gamow paper died?,"August 19, 1968",bridge,0,0.0,0.0,381,0,0.0,0.0,383,0,0.0,0.0,380,1,0.0,0.0,380
+"What competition held in Kathmandu, Nepal did Julian Bolling compete in 1984?",1984 South Asian Games,bridge,1,0.125,0.0,371,1,0.125,0.0,369,1,0.125,0.0,363,1,0.125,0.0,363
+The Nike Mercurial Vapor is endorsed by a Stoke City football player who also plays for what national team?,the Switzerland national team,bridge,1,0.0,0.0,378,1,0.0,0.0,379,1,0.0,0.0,378,1,0.0,0.0,378
+"Which aired first, Life After People or Werner Herzog Eats His Shoe?",Werner Herzog Eats His Shoe,comparison,1,1.0,1.0,372,1,1.0,1.0,379,1,1.0,1.0,372,1,1.0,1.0,373
+What NIFL Premier Intermediate League team did Sean Connor play for?,Distillery,bridge,1,0.0,0.0,376,1,0.0,0.0,382,1,0.0,0.0,376,1,0.0,0.0,376
+The first female correspondent for Inside the NFL was replaced by who on the show American Ninja Warrior?,Kristine Leahy,bridge,0,0.0,0.0,383,0,0.0,0.0,382,0,0.0,0.0,383,0,0.0,0.0,362
+Bridgewater Triangle is an area where the phenomenon associated with what type of tradition has been seen?,Native American,bridge,1,0.0,0.0,381,0,0.0,0.0,374,1,0.0,0.0,381,1,0.0,0.0,378
+"The band who released the debut album ""Tinted Windows"" had their first performance in what city?",Tulsa,bridge,0,0.0,0.0,380,1,0.0,0.0,377,1,0.0,0.0,380,1,0.0,0.0,367
+"In the 1970s, which group acquired this department store group in the United Kingdom whose co-founding director is the father of Lieutenant Colonel Donald Swain Lewis?",Army & Navy Stores,bridge,1,0.25,0.0,383,1,0.25,0.0,379,1,0.25,0.0,383,1,0.25,0.0,372
+The Dogwoman telemovies were created by an actress born in what year?,1961,bridge,1,0.0,0.0,376,0,0.0,0.0,379,1,0.0,0.0,376,1,0.0,0.0,384
+Who fills in occasionally for the meteorologist who replaced  Ginger Zee ?,Kait Parker,bridge,0,0.0,0.0,368,0,0.0,0.0,384,0,0.0,0.0,368,0,0.0,0.0,368
+In Ancient Egyptian religion how would a citizen be weighted to decide if they where worthy of damnation and would face the torment in the lake of fire ?,against the feather of truth,bridge,1,0.0,0.0,381,0,0.2105263157894737,0.0,376,1,0.0,0.0,379,1,0.0,0.0,376
+Which town near the county border with North Yorkshire was this Lancashire mill (closed in 1979 and demolished) located?,Barnoldswick,bridge,1,0.0,0.0,376,1,0.0,0.0,376,1,0.0,0.0,377,1,0.0,0.0,377
+"The Prodigal Daughter, though a book about an American, is by a novelist of what nationality?",English,bridge,1,0.0,0.0,378,1,0.0,0.0,383,1,0.0,0.0,378,1,0.0,0.0,378
+At what height does State Route 160 start?,4145 ft,bridge,0,0.0,0.0,371,1,0.0,0.0,376,0,0.0,0.0,371,0,0.0,0.0,373
+The alcoholic drink that shares a name with Quintessentially Unreal's 1996 album is commonly reffered to in historical literature as what?,the green fairy,bridge,1,0.0,0.0,381,1,0.0,0.0,384,1,0.0,0.0,381,1,0.0,0.0,362
+"What actor replaced the Welch actor born in 1978 who played Robin Hood in the first season of ""Once upon a Time""?",Sean Maguire,bridge,1,0.0,0.0,378,1,0.0,0.0,384,1,0.0,0.0,381,1,0.0,0.0,369
+"Which year was the more recent engine series, the Honda K or Honda H, introduced?",2001,bridge,1,0.0,0.0,368,1,0.0,0.0,378,1,0.0,0.0,368,1,0.0,0.0,382
+Who is the film dedicated to that Paramount Classics and MTV Films co-purchased the rights to?,Sam Phillips,bridge,1,0.0,0.0,383,1,0.0,0.0,376,1,0.0,0.0,383,1,0.0,0.0,377
+What are some foods that may have been served at the Hawaiin Cottage?,"poi, Kalua pig, poke, lomi salmon, opihi, haupia",bridge,0,0.0,0.0,380,0,0.0,0.0,370,0,0.0,0.0,380,0,0.0,0.0,355
+In what year was the coach who led the 2007 South Carolina Gamecocks football team in his third season as USC head coach born?,1945,bridge,0,0.0,0.0,383,1,0.0,0.0,366,0,0.0,0.0,377,0,0.0,0.0,377
+What team did Travis Cortez Mays play on which currently compete in the Big 12 Conference.?,Texas Longhorns men's basketball team,bridge,0,0.16666666666666666,0.0,382,0,0.16666666666666666,0.0,384,0,0.16666666666666666,0.0,378,0,0.16666666666666666,0.0,378
+"Which film does ""Naked Weapon"" follow in the ""Naked"" series?","""Naked Killer""",bridge,1,0.3333333333333333,0.0,371,1,0.3333333333333333,0.0,371,1,0.3333333333333333,0.0,371,1,0.3333333333333333,0.0,364
+Which award David Hersey had got for Equus a play by Peter Shaffer ?,Outstanding Lighting Design,bridge,1,0.0,0.0,384,1,0.0,0.0,382,1,0.0,0.0,384,1,0.0,0.0,378
+"What mine was operated by Royal Oak Mines at at earlier date, Kemess Mine or Colomac Mine?",The Colomac Mine,comparison,1,0.0,0.0,380,1,0.0,0.0,376,1,0.0,0.0,380,1,0.0,0.0,376
+Are The Man from Snowy River II and Miracle of the White Stallions filmed in different countries?,yes,comparison,0,0.0,0.0,384,0,0.0,0.0,376,0,0.0,0.0,384,0,0.0,0.0,373
+Do Lush and P.O.D. both consist of four band members?,yes,comparison,0,0.0,0.0,374,0,0.0,0.0,374,0,0.0,0.0,374,0,0.0,0.0,374
+What actor from the show Murphy Brown also had a role in a show with fellow actor Steve Howey? ,Christopher Rich,bridge,1,0.0,0.0,379,1,0.0,0.0,382,1,0.0,0.0,379,1,0.0,0.0,366
+What year was Playford B Power Station permanently closed in by its Australian operator?,2015,bridge,1,0.0,0.0,368,1,0.0,0.0,369,1,0.0,0.0,368,1,0.0,0.0,371
+Which English actor starred in the 1995 american romantic drama film The Scarlet Letter alongside Demi Moore and Robert Duvall?,Gary Oldman,bridge,1,0.0,0.0,351,1,0.0,0.0,378,1,0.0,0.0,378,1,0.0,0.0,351
+"Which tennis player is older, Emilio Sánchez or Andrei Olhovskiy?",Emilio Ángel Sánchez Vicario,comparison,1,0.4210526315789474,0.0,377,1,0.4210526315789474,0.0,371,1,0.4210526315789474,0.0,377,1,0.4210526315789474,0.0,380
+Henderson Executive Airport got its name in 1996 when it was purchased by Clark County to be used as a reliever airport for an airport named after what politican?,U.S. Senator Pat McCarran,bridge,0,0.058823529411764705,0.0,377,0,0.058823529411764705,0.0,379,0,0.058823529411764705,0.0,377,0,0.058823529411764705,0.0,372
+"Where is the county seat for people living in Henderson Point, Mississippi?","Gulfport, Biloxi",bridge,1,0.0,0.0,344,1,0.0,0.0,344,1,0.0,0.0,344,1,0.0,0.0,344
+Carrie Coon plays Margo Dunne in a 2014 film set in what state?,Missouri,bridge,1,0.0,0.0,375,1,0.0,0.0,376,1,0.0,0.0,375,1,0.0,0.0,375
+What do both Spider-Man and Spider-Man in film have in comman,comic,bridge,1,0.0,0.0,379,1,0.0,0.0,373,1,0.0,0.0,384,1,0.0,0.0,382
+"Which has more species, Sonerila or Scaevola?",Sonerila,comparison,1,0.0,0.0,326,1,0.0,0.0,326,1,0.0,0.0,326,1,0.0,0.0,326
+"What party was Johan Henrik Deuntzer a part of before the party that translates to the ""Radical Left?""","Liberal ""Venstre"" party",bridge,1,0.0,0.0,379,1,0.0,0.0,380,1,0.0,0.0,379,1,0.0,0.0,380
+What other film did the star of 127 Hours act in?,Pineapple Express,bridge,0,0.0,0.0,383,0,0.0,0.0,384,0,0.0,0.0,384,0,0.0,0.0,384
+What school was the actress who appeared with Michelle Williams in the last play by Russian playwright Anton Chekhov attending when she was signed on for a talent holding deal?,Juilliard School,bridge,1,0.0,0.0,383,1,0.0,0.0,383,1,0.0,0.0,383,1,0.0,0.0,383
+What is the capacity of the stadium that is the home ground of the Lahore Eagles?,"27,000",bridge,1,0.0,0.0,381,1,0.0,0.0,384,1,0.0,0.0,381,1,0.0,0.0,376
+St Dionis Backchurch was rebuilt after a major conflagration that consumed how many parish churches?,87,bridge,1,0.0,0.0,364,1,0.0,0.0,364,1,0.0,0.0,364,1,0.0,0.0,364
+"What career did the British actor born in 1965  and star of Lock, Stock and Two Smoking Barrels have before acting?",professional footballer,bridge,1,0.0,0.0,384,1,0.0,0.0,381,1,0.0,0.0,384,1,0.0,0.0,384
+Curt Menefee is the host of the Fox network's NFL show with co-host Michael Anthony Strahan who spent his entire 15-year career with what team?,New York Giants,bridge,1,0.0,0.0,374,1,0.0,0.0,380,1,0.0,0.0,374,1,0.0,0.0,384
+Lake Wales Ridge National Wildlife Refuge is on the US route that runs between a city in what Florida county?,Polk,bridge,1,0.0,0.0,384,1,0.0,0.0,379,1,0.0,0.0,384,1,0.0,0.0,374
+"Which film director is younger, Robert Z. Leonard or Sinclair Hill?",Sinclair Hill,comparison,1,0.33333333333333337,0.0,370,1,0.33333333333333337,0.0,370,1,0.33333333333333337,0.0,370,1,0.33333333333333337,0.0,370
+What city is between Normanby le Wold and the A46 Junction between Lincoln and Grimsby?,Caistor is a town,bridge,0,0.0,0.0,382,0,0.0,0.0,374,0,0.0,0.0,382,0,0.0,0.0,365
+Milo Parker starred in which 2014 movie alongside Gillian Anderson?,Robot Overlords,bridge,1,0.0,0.0,358,1,0.0,0.0,358,1,0.0,0.0,358,1,0.0,0.0,358
+The Lady Craved Excitement was a film that featured the British character actor originally of what nationality?,South African-born,bridge,1,0.0,0.0,366,1,0.0,0.0,377,1,0.0,0.0,366,1,0.0,0.0,356
+...Ready for It? is a Taylor Swift song from the album scheduled to be released on what date?,"November 10, 2017",bridge,1,0.0,0.0,309,1,0.0,0.0,309,1,0.0,0.0,309,1,0.0,0.0,309
+"Jal Pari, which translated in another language refers to which legendary creature which are sometimes associated with perilous events such as floods, storm,s shipwrecks, and drownings?",A mermaid,bridge,1,0.0,0.0,381,1,0.0,0.0,380,1,0.0,0.0,381,1,0.0,0.0,363
+What is the brand who makes canned meats that had its own cook off in Austin until 2007?,Hormel Foods Corporation,bridge,1,0.0,0.0,377,1,0.0,0.0,378,1,0.0,0.0,377,1,0.0,0.0,378
+"Multiculturalism in the Netherlands reached new heights following the murder in 2002, in part, with what Dutch politician, civil servant, socialogist and professor who formed his own party?","Wilhelmus Simon Petrus Fortuijn, known as Pim Fortuyn",bridge,1,0.3404255319148936,0.0,383,1,0.3404255319148936,0.0,383,1,0.3404255319148936,0.0,379,1,0.3404255319148936,0.0,369
+"Which movie directed by James Gunn portrayed the fictional character, Ego the Living Planet?",Guardians of the Galaxy Vol. 2,bridge,0,0.0,0.0,370,0,0.0,0.0,378,0,0.0,0.0,370,0,0.0,0.0,370
+Which film was not a 3D computer-animation Cars 3 or Smith!?,Smith!,comparison,1,0.0,0.0,379,1,0.0,0.0,381,1,0.0,0.0,379,1,0.0,0.0,376
+The city that hosted the Olympics where Taiwan competed as Chinese Taipei is situated at the confluence of what two rivers?,Bow River and the Elbow River,bridge,1,0.0,0.0,375,1,0.0,0.0,382,0,0.0,0.0,377,0,0.0,0.0,377
+Penny Rae Bridges starred in a television sitcom with what other actor?,Ben Savage,bridge,1,0.0,0.0,358,1,0.0,0.0,383,1,0.0,0.0,358,1,0.0,0.0,358
+Were Ulrich Walter and Léopold Eyharts both from Germany?,no,comparison,1,0.0,0.0,372,1,0.0,0.0,378,1,0.0,0.0,372,1,0.0,0.0,384
+"Who has a wider scope of profession, Christopher Guest or  Roman Karmen?",Christopher Haden-Guest,comparison,1,0.5,0.0,382,1,0.5,0.0,376,1,0.5,0.0,382,1,0.5,0.0,381
+Giovanna d'Arco is an opera that was created by the composer of what nationality?,Italian,bridge,1,0.0,0.0,373,1,0.0,0.0,382,1,0.0,0.0,371,1,0.0,0.0,370
+Kim Dong-won's directorial debut film was a sequal to what 2001 film?,"My Boss, My Hero",bridge,1,0.0,0.0,384,1,0.0,0.0,379,1,0.0,0.0,384,1,0.0,0.0,360
+Millennium Greens were funded in part by a what type of lottery?,state-franchised,bridge,1,0.0,0.0,361,1,0.0,0.0,383,1,0.0,0.0,361,1,0.0,0.0,383
+"In what month is the annual documentary film festival, that is presented by the fortnightly published British journal of literary essays, held? ",March and April,bridge,1,0.0,0.0,365,1,0.0,0.0,376,1,0.0,0.0,381,1,0.0,0.0,381
+"Palm Springs lies in Palm Beach County, the third most populated county in its state. Which major U.S. city is it near?",Miami,bridge,0,0.0,0.0,367,1,0.0,0.0,378,1,0.0,0.0,367,1,0.0,0.0,367
+Candace Flynn was voiced by the actress who achieved mainstream success on what show?,The Suite Life of Zack & Cody,bridge,1,0.0,0.0,380,1,0.0,0.0,384,1,0.0,0.0,380,1,0.0,0.0,380
+"In regards to Value premium an expert argued that no value premium exisits, what did this expert found?",The Vanguard Group,bridge,0,0.0,0.0,383,0,0.0,0.0,381,0,0.0,0.0,383,0,0.0,0.0,376
+Professor A. Selvanathan is a professor at a university that is public or private ?,public,bridge,1,0.4,0.0,382,1,0.1,0.0,383,1,0.4,0.0,382,1,0.1,0.0,358
+Fighting Cock is produced in what Kentucky county?,Nelson County,bridge,1,0.0,0.0,376,1,0.0,0.0,377,1,0.0,0.0,376,1,0.0,0.0,376
+"What was the official religion of the lands of the husband of Dorothea of Denmark, Duchess of Prussia?",Protestantism,bridge,1,0.0,0.0,365,1,0.0,0.0,382,1,0.0,0.0,384,1,0.0,0.0,369
+Frank Blake's longtime protégé was also the chairman and CEO of what company in addition to The Home Depot?,Chrysler,bridge,1,0.0,0.0,370,1,0.0,0.0,370,1,0.0,0.0,370,1,0.0,0.0,370
+Armie Hammer stars as Oliver in a film directed by who ?,Luca Guadagnino,bridge,1,0.0,0.0,384,1,0.0,0.0,373,1,0.0,0.0,384,1,0.0,0.0,384
+In what city did the 23rd overall pick of the 2015 NHL Entry Draft helped the United States national junior team win a bronze medal?,"Helsinki, Finland",bridge,0,0.0,0.0,376,0,0.0,0.0,377,0,0.0,0.0,376,0,0.0,0.0,371
+Mariana Kovacevic used horse placenta treatment to heal the captian of what team?,Ghanaian national team,bridge,0,0.0,0.0,380,0,0.0,0.0,381,0,0.0,0.0,380,0,0.0,0.0,357
+"What instrument of war was only used by the President of the United States who was born in Lamar, Missouri?",nuclear weapons,bridge,1,0.0,0.0,381,1,0.0,0.0,382,0,0.0,0.0,380,0,0.0,0.0,380
+Brian Olsen was the lst WEC heavyweight champion before the promotion company founded in what month purchased the organization?,January 2001,bridge,1,0.0,0.0,376,1,0.0,0.0,354,1,0.0,0.0,376,0,0.0,0.0,362
+Mr. & Mrs. Mxyzptlk is an episode of the superhero TV series that originally aired on what network?,CBS,bridge,1,0.0,0.0,378,1,0.0,0.0,379,1,0.0,0.0,378,1,0.0,0.0,378
+When was the singer of Miss Emily's Picture born?,"August 11, 1946",bridge,1,0.0,0.0,384,0,0.0,0.0,381,1,0.0,0.0,384,1,0.0,0.0,367
+Kete Krachi is a town in what region?,Volta,bridge,1,0.14285714285714288,0.0,205,1,0.14285714285714288,0.0,205,1,0.14285714285714288,0.0,205,1,0.14285714285714288,0.0,205
